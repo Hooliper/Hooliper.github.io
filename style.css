@@ -1,0 +1,110 @@
+body {
+  
+	padding: 0 50px;
+  
+	margin: 0;
+  
+	height: 100vh;
+
+}
+
+
+
+.inputCod {
+ 
+	width: 80px;
+  
+	text-align: right;
+
+}
+
+
+
+.inputPrecio {
+  
+	width: 100px;
+  
+	text-align: right;
+}
+
+
+
+.inputCant {
+
+	width: 60px;
+
+}
+
+
+
+.inputSelect {
+
+	width: 255px;
+}
+
+
+
+.columnaCod {
+    	width: 100px;
+
+}
+
+
+
+.columnaDesc {
+
+    width: 30%;
+
+}
+
+
+
+.columnaPrecio {
+
+    width: 10%;
+
+}
+
+
+
+.columnaCant {
+
+    width: 5%;
+
+}
+
+
+
+.columnaPlan {
+
+    width: 20%;
+
+}
+
+
+
+.celdaAlineadaDerecha {
+
+    text-align: right;
+
+    vertical-align: middle;
+
+}
+
+
+
+.celdaDesc {
+
+    text-align: left;
+
+    vertical-align: middle;
+
+}
+
+
+
+td {
+
+    border: 1px solid;
+
+}

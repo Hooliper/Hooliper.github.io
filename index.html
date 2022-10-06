@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+
+<title>Test</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap.css">
+
+
+
+</head>
+
+<body>
+
+<div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+
+<div>
+      <table class="table users table-hover">
+        <thead>
+          <tr>
+            <th class="columnaCod">Cod</th>
+            <th class="columnaDesc">Descripcion</th>
+            <th class="columnaPrecio">Precio</th>
+            <th class="columnaPrecio">CR</th>
+            <th class="columnaPrecio">Total</th>
+            <th calss="columnaPlan">Plan</th>
+            <th calss="columnaCant">Cant</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input id="codigo" type="text" class="inputCod form-control enterNuevaFila"></td>
+                <td class="celdaDesc" id="descripcion"></td>
+                <td><input id="precio" type="text" class="inputPrecio form-control"></td>
+                <td><input id="cr" type="text" class="inputPrecio form-control"></td>
+                <td id="total" class="celdaAlineadaDerecha"></td>
+                <td>
+                    <select id="plan" class="inputSelect form-control">
+                        
+                    </select>
+                </td>
+                <td><input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila" value=1></td>
+            </tr>
+            
+        </tbody>
+      </table>  
+    </div>
+    <div id="divTabla">
+      <table id="tabla" class="table users table-hover">
+        <thead>
+          <tr>
+            <th class="columnaCod">N</th>  
+            <th class="columnaCod">Cod</th>
+            <th class="columnaDesc">Descripcion</th>
+            <th class="columnaPrecio">Precio</th>
+            <th class="columnaPrecio">CR</th>
+            <th class="columnaPrecio">Total</th>
+            <th calss="columnaPlan">Plan</th>
+            <th calss="columnaCant">Cant</th>
+          </tr>
+        </thead>
+        <tbody>
+         
+        </tbody>
+      </table>  
+</div>
+
+</body>
+
+<script type="text/javascript" src="jquery-3.6.1.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script src="xlsx.full.min.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+</html>
