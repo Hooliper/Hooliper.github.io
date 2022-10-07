@@ -81,9 +81,28 @@ $("#divTabla").hide();
 
 //LECTOR DE EXCEL
 
-$('#formFile').on('change', function(){
-    console.log("dentro");
-});
+function handleFiles(files){
+    let file = files[0];
+
+    const reader = new FileReader();
+    reader.readAsBinaryString(file);
+    reader.onload = (e) => {
+      const data = e.target.result;
+      const zzexcel = window.XLSX.read(data, {
+        type: 'binary'
+      });
+      const result = [];
+      for (let i = 0; i < zzexcel.SheetNames.length; i++) {
+        if (zzexcel.SheetNames[i] == "1502"){
+            const newData = window.XLSX.utils.sheet_to_json(zzexcel.Sheets[zzexcel.SheetNames[i]]);
+            result.push(...newData)
+        }
+      }
+      console.log(result);
+      console.log(zzexcel.SheetNames)
+      console.log(result[5]["Desc. Articulo"])
+    }
+};
 
 
 //FIN LECTOR EXCEL
