@@ -46,7 +46,7 @@ function agregaFila(cod, descripcion, precio, cr, planElegido, cant){
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+precio+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cr+'</td>'+
-                '<td class="celdaAlineadaDerecha">'+precio+cr+'</td>'+
+                '<td class="celdaAlineadaDerecha">'+(precio+cr)+'</td>'+
                 '<td>'+
                     '<select id="planFila'+numeroFila+'" class="inputSelect form-control">'+
                         
