@@ -39,6 +39,7 @@ function agregaFilaManual(){
 }
 
 function agregaFilaExcel(arrExcel){
+    console.log("2");
     for (let i = 0; i < arrExcel.length; i++) {
         let cod = arrExcel[i]["Articulo"];
         let descripcion = arrExcel[i]["Desc. Articulo"];
@@ -115,6 +116,7 @@ function handleFiles(files){
             result.push(...newData)
         }
       }
+      console.log("1");
       agregaFilaExcel(result);
       //console.log(result);
       //console.log(zzexcel.SheetNames)
