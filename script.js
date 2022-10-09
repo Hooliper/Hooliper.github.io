@@ -19,12 +19,12 @@ listaPlanes("plan");
 
 var numeroFila = 1;
 
-function agregaFila(){
+function agregaFilaManual(){
     var cod = $('#codigo').val();
     var descripcion = $('#descripcion').html();
     var precio = $('#precio').val();
     var cr = $('#cr').val();
-    var totalPrecioCr = $('#total').html();
+    //var totalPrecioCr = $('#total').html();
     var planElegido = $('#plan').val();
     var cant = $('#cant').val();
     
@@ -34,14 +34,19 @@ function agregaFila(){
     $('#cr').val('');
     $('#total').html('');
     $('#cant').val(1);
-    
+
+    agregaFila(cod, descripcion, precio, cr, planElegido, cant);
+}
+
+function agregaFila(cod, descripcion, precio, cr, planElegido, cant){    
+    console.log("nuevo");
     var fila = '<tr>'+
                 '<td class="celdaAlineadaDerecha">'+numeroFila+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+precio+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cr+'</td>'+
-                '<td class="celdaAlineadaDerecha">'+totalPrecioCr+'</td>'+
+                '<td class="celdaAlineadaDerecha">'+precio+cr+'</td>'+
                 '<td>'+
                     '<select id="planFila'+numeroFila+'" class="inputSelect form-control">'+
                         
@@ -59,7 +64,7 @@ function agregaFila(){
 $('.enterNuevaFila').on('keypress',function(e) {
     if(e.which == 13) {
         $("#divTabla").show(400);
-        agregaFila();
+        agregaFilaManual();
     }
 });
 
@@ -103,7 +108,6 @@ function handleFiles(files){
       console.log(result[5]["Desc. Articulo"])
     }
 };
-
 
 //FIN LECTOR EXCEL
 
