@@ -17,16 +17,16 @@ function listaPlanes(idSelect, planElegido) {
 
 listaPlanes("plan");
 
-var numeroFila = 1;
+let numeroFila = 1;
 
 function agregaFilaManual(){
-    var cod = $('#codigo').val();
-    var descripcion = $('#descripcion').html();
-    var precio = $('#precio').val();
-    var cr = $('#cr').val();
-    //var totalPrecioCr = $('#total').html();
-    var planElegido = $('#plan').val();
-    var cant = $('#cant').val();
+    let cod = $('#codigo').val();
+    let descripcion = $('#descripcion').html();
+    let precio = $('#precio').val();
+    let cr = $('#cr').val();
+    //let totalPrecioCr = $('#total').html();
+    let planElegido = $('#plan').val();
+    let cant = $('#cant').val();
     
     $('#codigo').val('');
     $('#descripcion').html('');
@@ -38,15 +38,27 @@ function agregaFilaManual(){
     agregaFila(cod, descripcion, precio, cr, planElegido, cant);
 }
 
+function agregaFilaExcel(arrExcel){
+    for (let i = 0; i < arrExcel.length; i++) {
+        let cod = arrExcel[i]["Articulo"];
+        let descripcion = arrExcel[i]["Desc. Articulo"];
+        let precio = arrExcel[i]["Precio Vigente"];
+        let cr = 0;
+        let planElegido = 0;
+        let cant = 1;
+        agregaFila(cod, descripcion, precio, cr, planElegido, cant);
+    }
+}
+
 function agregaFila(cod, descripcion, precio, cr, planElegido, cant){    
-    console.log("nuevo");
-    var fila = '<tr>'+
+    let totalPrecioCr = parseFloat(precio) + parseFloat(cr);
+    let fila = '<tr>'+
                 '<td class="celdaAlineadaDerecha">'+numeroFila+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+precio+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cr+'</td>'+
-                '<td class="celdaAlineadaDerecha">'+(precio+cr)+'</td>'+
+                '<td class="celdaAlineadaDerecha">'+totalPrecioCr+'</td>'+
                 '<td>'+
                     '<select id="planFila'+numeroFila+'" class="inputSelect form-control">'+
                         
@@ -73,8 +85,8 @@ $('#precio').on('input', (sumaPrecioCr));
 $('#cr').on('input', (sumaPrecioCr));
     
 function sumaPrecioCr(){
-    var a = Number($('#precio').val());
-    var b = Number($('#cr').val());
+    let a = Number($('#precio').val());
+    let b = Number($('#cr').val());
     
     $('#total').html(a+b);
 }
@@ -103,9 +115,10 @@ function handleFiles(files){
             result.push(...newData)
         }
       }
-      console.log(result);
-      console.log(zzexcel.SheetNames)
-      console.log(result[5]["Desc. Articulo"])
+      agregaFilaExcel(result);
+      //console.log(result);
+      //console.log(zzexcel.SheetNames)
+      //console.log(result[5]["Desc. Articulo"])
     }
 };
 
