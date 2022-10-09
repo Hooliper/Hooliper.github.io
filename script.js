@@ -24,7 +24,7 @@ function agregaFilaManual(){
     let descripcion = $('#descripcion').html();
     let precio = $('#precio').val();
     let cr = $('#cr').val();
-    //let totalPrecioCr = $('#total').html();
+    let totalPrecioCr = $('#total').html();
     let planElegido = $('#plan').val();
     let cant = $('#cant').val();
     
@@ -35,7 +35,7 @@ function agregaFilaManual(){
     $('#total').html('');
     $('#cant').val(1);
 
-    agregaFila(cod, descripcion, precio, cr, planElegido, cant);
+    agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
 }
 
 function agregaFilaExcel(arrExcel){
@@ -45,14 +45,14 @@ function agregaFilaExcel(arrExcel){
         let descripcion = arrExcel[i]["Desc. Articulo"];
         let precio = arrExcel[i]["Precio Vigente"];
         let cr = 0;
+        let totalPrecioCr = precio;
         let planElegido = 0;
         let cant = 1;
-        agregaFila(cod, descripcion, precio, cr, planElegido, cant);
+        agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
     }
 }
 
-function agregaFila(cod, descripcion, precio, cr, planElegido, cant){    
-    let totalPrecioCr = precio+cr;//parseFloat(precio) + parseFloat(cr);
+function agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){    
     let fila = '<tr>'+
                 '<td class="celdaAlineadaDerecha">'+numeroFila+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cod+'</td>'+
