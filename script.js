@@ -52,7 +52,7 @@ function agregaFilaExcel(arrExcel){
 }
 
 function agregaFila(cod, descripcion, precio, cr, planElegido, cant){    
-    let totalPrecioCr = parseFloat(precio) + parseFloat(cr);
+    let totalPrecioCr = precio+cr;//parseFloat(precio) + parseFloat(cr);
     let fila = '<tr>'+
                 '<td class="celdaAlineadaDerecha">'+numeroFila+'</td>'+
                 '<td class="celdaAlineadaDerecha">'+cod+'</td>'+
