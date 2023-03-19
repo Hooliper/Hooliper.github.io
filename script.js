@@ -118,7 +118,7 @@ function handleFiles(files){
       }
       console.log("1");
       agregaFilaExcel(result);
-      //console.log(result);
+      console.log(result);
       //console.log(zzexcel.SheetNames)
       //console.log(result[5]["Desc. Articulo"])
     }
