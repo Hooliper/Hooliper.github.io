@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Etiqueta Tecnica</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100vh;
+            width: 100vw;
+        }
+        
+        .box {
+            flex-basis: 50%;
+            height: 50%;
+            position: relative;
+	    color: white;
+	    font-family: "Sanuk Offc";
+        }
+        
+        .box::before {
+            content: "";
+            display: block;
+            padding-top: 100%;
+        }
+        
+        .box .logo {
+	    border: 2px solid black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-repeat: repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+	.box .logo .part1 {
+            height: 3.57%;
+            background-color: #000000;
+        }
+
+	.box .logo .part1 h5 {
+	    position: absolute;
+	}
+        
+	.box .logo .part1 span {
+	    margin-left: 83%;
+	    font-size: 15px;
+	}
+ 
+	.box .logo .part1 span::before {
+	    content: "COD ";
+	}
+
+        .box .logo .part2 {
+            height: 7.14%;
+            background-color: #000000;
+        }
+              
+        .box .logo .part3 {
+	    flex-basis: 33.33%;
+            height: 8.93%;
+	    display: flex;
+            flex-direction: row;
+	    background-color: #000000;
+        }
+
+	.box .logo .part3 div{
+	    width: 33.33%;
+	    padding-top: 2px;
+	}
+
+	.box .logo .divisionDetalles {
+	    background-color: #ffffff;
+	    box-shadow: 0px 0px 5px 1px #fff;
+	    position: relative;
+	}
+        
+        .box .logo .part3b {
+            height: 8.93%;
+	    flex-direction: row;
+	    display: flex;
+	    background-color: #000000;
+        }
+        
+	.box .logo .part3b div{
+	    width: 33.33%;
+	    padding-top: 2px;
+	}
+        
+        .box .logo .part4 {
+            height: 3.57%;
+            background-color: #000000;
+        }
+        
+        .box .logo .part5 {
+            height: 14.32%;
+            background-color: #fdae1d;
+        }
+        
+        .box .logo .part6 {
+            height: 7.14%;
+            background-color: #f8ce1d;
+        }
+        
+        .box .logo .part7,
+        .box .logo .part8,
+        .box .logo .part9 {
+            height: 10.71%;
+            background-color: #ff6600;
+        }
+
+	.box .logo .part10 {
+            height: 3.57%;
+            background-color: #f8ce1d;
+        }
+        
+	.box .logo .part11 {
+            height: 10.71%;
+            background-color: #ff6600;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="logo">
+		<div class="part1">
+		    <h5>Pava Electrica</h5>
+		    <span>491470</span>
+		</div>
+                <div class="part2">
+		    <h1>PEABODY</h1>
+		</div>
+                <div class="part3">
+		    <div class="detalle1">
+			<img src="alto.png" width="40" height="40" hidden>
+		    </div>
+			<div class="divisionDetalles" style="width: 1px"></div>
+		    <div class="detalle2">det2</div>
+			<div class="divisionDetalles" style="width: 1px"></div>
+		    <div class="detalle3">det3</div>
+		</div>
+		<div class="divisionDetalles" style="height: 1px"></div>
+                <div class="part3b">
+		    <div class="detalle4">det4</div>
+			<div class="divisionDetalles" style="width: 1px"></div>
+		    <div class="detalle5">det5</div>
+			<div class="divisionDetalles" style="width: 1px"></div>
+		    <div class="detalle6">det6</div>
+		</div>
+                <div class="part4">4</div>
+                <div class="part5">5</div>
+                <div class="part6">6</div>
+                <div class="part7">7</div>
+                <div class="part8">8</div>
+                <div class="part9">9</div>
+                <div class="part10">10</div>
+                <div class="part11">11</div>
+	    </div>
+        </div>
+        <div class="box">
+            <div class="logo"></div>
+        </div>
+        <div class="box">
+            <div class="logo"></div>
+        </div>
+        <div class="box">
+            <div class="logo"></div>
+        </div>
+    </div>
+</body>
+</html>
