@@ -78,7 +78,7 @@ border: 2px solid black;
     flex-direction: row;
 }
 
-.box .logo .part3 .detalle1 span{
+.box .logo .part3 .detalle1 div{
     width: 70%;
 }
 
