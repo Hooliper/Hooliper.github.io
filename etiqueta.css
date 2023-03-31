@@ -15,8 +15,8 @@
     flex-basis: 50%;
     height: 50%;
     position: relative;
-color: white;
-font-family: "Sanuk Offc";
+    color: white;
+    font-family: "Sanuk Offc";
 }
 
 .box::before {
@@ -73,13 +73,17 @@ border: 2px solid black;
     padding-top: 2px;
 }
 
-.box .logo .part3 .detalle1{
+.box .logo .part3 .detalle,
+.box .logo .part3b .detalle{
     display: flex;
-    flex-direction: row;
 }
 
-.box .logo .part3 .detalle1 div{
-    width: 70%;
+.box .logo .part3 .detalle div,
+.box .logo .part3b .detalle div{
+    width: 70%;    
+    position: relative;
+    //background-color: #0f0;
+    font-size: 12px;
 }
 
 .box .logo .divisionDetalles {
@@ -131,4 +135,5 @@ border: 2px solid black;
     height: 10.71%;
     background-color: #ff6600;
 }
+
 
