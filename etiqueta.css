@@ -82,7 +82,6 @@ border: 2px solid black;
 .box .logo .part3b .detalle div{
     width: 70%;    
     position: relative;
-    //background-color: #0f0;
     font-size: 12px;
 }
 
@@ -107,33 +106,163 @@ border: 2px solid black;
 .box .logo .part4 {
     height: 3.57%;
     background-color: #000000;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .logo .part4 .descripcion::before{
+    font-size: 8px;
+    content: "Ref ";
+}
+
+.box .logo .part4 .descripcion{
+    width: 60%;
+}
+
+.box .logo .part4 .ean::before{
+    content: "EAN ";
+    font-size: 8px;
+}
+
+.box .logo .part4 .ean{
+    width: 39%;
+    text-align: right;
 }
 
 .box .logo .part5 {
     height: 14.32%;
-    background-color: #fdae1d;
+    background-color: #fff;
+}
+
+.box .logo .part5 .precio::before{
+    content: "$ ";
+}
+
+.box .logo .part5 .precio{
+    color: #000000;
+    font-size: 55px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box .logo .part6 .leyendaGarantia{
+    font-size: 23px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .box .logo .part6 {
     height: 7.14%;
-    background-color: #f8ce1d;
+    background-color: #000;
 }
 
 .box .logo .part7,
 .box .logo .part8,
 .box .logo .part9 {
     height: 10.71%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.box .logo .part7{
     background-color: #ff6600;
+}
+
+.box .logo .part8{
+    background-color: red;
+}
+.box .logo .part9{
+    background-color: blue;
+}
+
+.logoTarjeta{
+    width: 35%;
+    height: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cuotas{
+    width: 15%;
+    font-size: 33px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.interes{
+    width: 15%;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.precioCuota{
+    width: 35%;
+    font-size: 22px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    margin-right: 5px;
 }
 
 .box .logo .part10 {
     height: 3.57%;
-    background-color: #f8ce1d;
+    background-color: #fff;
+}
+
+.part10 div{
+    text-align: center;
+    font-size: 12px;
+    color: #000;
 }
 
 .box .logo .part11 {
-    height: 10.71%;
-    background-color: #ff6600;
+    height: 8.71%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color: #000;
 }
 
+.box .logo .part11 span{
+    width: 60%;
+    font-size: 22px;
+    text-align: right;
+    font-weight: bold;
+}
 
+.precioContado::before{
+    content: "$ ";
+}
+
+.precioContado {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.part12 {
+    color: #000;
+    height: 2%;
+    font-size: 8px;
+    text-align: right;
+}
