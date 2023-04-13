@@ -1,29 +1,98 @@
-body {
-	padding: 0 50px;
+/** {
 	margin: 0;
-	height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+.container-fluid{
+	background-color: aliceblue;
+	padding-top: 20px;
+	display: flex;
+    flex-direction: row;
+	min-height: 100vh;
+}
+
+.lateral{
+	width: 20%;
+}
+
+.mb-3{
+	border: solid;
+	border-color: #999;
+	border-radius: 25px;
+}
+
+.mb-3 label{
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: -3px;
+}
+
+.mb-3 input{
+	margin-bottom: 6px;
+	margin-left: 6px;
+	margin-right: 10px;
+	width: 96%;
+}
+
+.cargaManual{
+	border: solid;
+	border-color: #999;
+	border-radius: 25px;
+}
+
+.cargaManual label.form-label{
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 8px;
+}
+
+.cargaManual .labels{
+	margin-left: 6px;
+}
+
+.cargaManual input, 
+.cargaManual div, 
+.cargaManual select{
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	width: 96%;
+}
+
+.divisor{
+	background-color: #999;
+	width: 2px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#divTabla{
+	display: none;
+	font-size: 14px;
 }
 
 .inputCod {
-	width: 80px;
-	text-align: right;
+	text-align: left;
+	width: 15px;
 }
 
 .inputPrecio {
-	width: 100px;
-	text-align: right;
+	text-align: left;
 }
 
 .inputCant {
-	width: 60px;
+	
 }
 
 .inputSelect {
-	width: 255px;
+	
 }
 
 .columnaCod {
-	width: 100px;
+	
 }
 
 .columnaDesc {

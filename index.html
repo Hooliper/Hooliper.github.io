@@ -14,65 +14,60 @@
 
 <body>
 
-<div class="mb-3">
-  <label for="formFile" class="form-label">Default file input example</label>
-  <input class="form-control" type="file" id="formFile" onchange="handleFiles(this.files)">
-</div>
-
-<div>
-      <table class="table users table-hover">
-        <thead>
-          <tr>
-            <th class="columnaCod">Cod</th>
-            <th class="columnaDesc">Descripcion</th>
-            <th class="columnaPrecio">Precio</th>
-            <th class="columnaPrecio">CR</th>
-            <th class="columnaPrecio">Total</th>
-            <th calss="columnaPlan">Plan</th>
-            <th calss="columnaCant">Cant</th>
-          </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><input id="codigo" type="text" class="inputCod form-control enterNuevaFila"></td>
-                <td class="celdaDesc" id="descripcion"></td>
-                <td><input id="precio" type="text" class="inputPrecio form-control"></td>
-                <td><input id="cr" type="text" class="inputPrecio form-control"></td>
-                <td id="total" class="celdaAlineadaDerecha"></td>
-                <td>
-                    <select id="plan" class="inputSelect form-control">
-                        
-                    </select>
-                </td>
-                <td><input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila" value=1></td>
-            </tr>
-            
-        </tbody>
-      </table>  
+<div class="container-fluid">
+  <div class="lateral">
+    <div class="mb-3 cambioDePrecios">
+      <label for="formFile" class="form-label"><b>Cambio de precio</b></label>
+      <input class="form-control" type="file" id="formFile" onchange="handleFiles(this.files)">
     </div>
-    <div id="divTabla">
-      <table id="tabla" class="table users table-hover">
-        <thead>
-          <tr>
-            <th class="columnaCod">N</th>  
-            <th class="columnaCod">Cod</th>
-            <th class="columnaDesc">Descripcion</th>
-            <th class="columnaPrecio">Precio</th>
-            <th class="columnaPrecio">CR</th>
-            <th class="columnaPrecio">Total</th>
-            <th calss="columnaPlan">Plan</th>
-            <th calss="columnaCant">Cant</th>
-          </tr>
-        </thead>
-        <tbody>
-         
-        </tbody>
-      </table>  
+  
+    <div class="cargaManual">
+      <label for="formFile" class="form-label"><b>Carga Manual</b></label><br>
+      <label for="formFile" class="labels">Codigo</label>
+      <input id="codigo" type="text" class="inputCod form-control enterNuevaFila" maxlength="6">
+      <label for="formFile" class="labels">Descripción</label>
+      <input id="descripcion" type="text" class="celdaDesc form-control" readonly tabindex="-1">
+      <label for="formFile" class="labels">Precio</label>
+      <input id="precio" type="text" class="inputPrecio form-control" maxlength="7">
+      <label for="formFile" class="labels">CR</label>
+      <input id="cr" type="text" class="inputPrecio form-control" maxlength="7">
+      <label for="formFile" class="labels">Total</label>
+      <div id="total" class="inputPrecio form-control">0</div>
+      <label for="formFile" class="labels">Plan de cuotas</label>
+      <select id="plan" class="inputSelect form-control"></select>
+      <label for="formFile" class="labels">Cantidad</label>
+      <input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila" value=1>
+    </div>
+    
+  </div>
+
+  <div class="divisor">
+  </div>
+
+  <div id="divTabla">
+    <table id="tabla" class="table users table-hover table-sm">
+      <thead>
+        <tr>
+          <th class="columnaCod">N</th>  
+          <th class="columnaCod">Cod</th>
+          <th class="columnaDesc">Descripcion</th>
+          <th class="columnaPrecio">Precio</th>
+          <th class="columnaPrecio">CR</th>
+          <th class="columnaPrecio">Total</th>
+          <th calss="columnaPlan">Plan</th>
+          <th calss="columnaCant">Cant</th>
+        </tr>
+      </thead>
+      <tbody>
+      
+      </tbody>
+    </table>  
+  </div>
 </div>
 
 </body>
 
-<script type="text/javascript" src="jquery-3.6.1.js"></script>
+<script type="text/javascript" src="jquery-3.6.4.min.js"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
 <script type="text/javascript" src="xlsx.full.min.js"></script>
 
