@@ -23,22 +23,29 @@
   
     <div class="cargaManual">
       <label for="formFile" class="form-label"><b>Carga Manual</b></label><br>
-      <label for="formFile" class="labels">Codigo</label>
-      <input id="codigo" type="text" class="inputCod form-control enterNuevaFila" maxlength="6">
-      <label for="formFile" class="labels">Descripción</label>
+      <label class="labels" id="codLabel">Codigo</label>
+      <input id="codigo" type="text" class="inputCod form-control enterNuevaFila soloNumero" maxlength="6">
+      <label class="labels">Descripción</label>
       <input id="descripcion" type="text" class="celdaDesc form-control" readonly tabindex="-1">
-      <label for="formFile" class="labels">Precio</label>
-      <input id="precio" type="text" class="inputPrecio form-control" maxlength="7">
-      <label for="formFile" class="labels">CR</label>
-      <input id="cr" type="text" class="inputPrecio form-control" maxlength="7">
-      <label for="formFile" class="labels">Total</label>
+      <label class="labels">Precio</label>
+      <input id="precio" type="text" class="inputPrecio form-control" maxlength="9">
+      <label class="labels">CR</label>
+      <input id="cr" type="text" class="inputPrecio form-control" maxlength="9">
+      <label class="labels">Total</label>
       <div id="total" class="inputPrecio form-control">0</div>
-      <label for="formFile" class="labels">Plan de cuotas</label>
+      <label class="labels">Plan de cuotas</label>
       <select id="plan" class="inputSelect form-control"></select>
-      <label for="formFile" class="labels">Cantidad</label>
-      <input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila" value=1>
+      <label class="labels">Cantidad</label>
+      <input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila soloNumero" value=1>
     </div>
     
+    <input type=button value="Imprimir" class="btn btn-primary" onclick="imprimir()">
+    
+    <div class="cargaBd">
+      <label for="formFile" class="form-label"><b>Base de Datos</b></label>
+      <input class="form-control" type="file" onchange="actualizaBd(this.files)">
+    </div>
+
   </div>
 
   <div class="divisor">
@@ -72,5 +79,6 @@
 <script type="text/javascript" src="xlsx.full.min.js"></script>
 
 <script type="text/javascript" src="script.js"></script>
+
 
 </html>
