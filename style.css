@@ -110,11 +110,11 @@
 }
 
 .columnaDesc {
-	width: 40%;
+	width: 30%;
 }
 
 .columnaPrecio {
-	width: 5%;
+	width: 10%;
 }
 
 .columnaPlan {
@@ -151,4 +151,9 @@ td {
 	margin-top: 20px;
 	margin-left: 40px;
 	
+}
+
+.borrar{
+	color: red;
+	text-decoration:none;
 }

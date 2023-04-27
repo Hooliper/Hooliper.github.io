@@ -27,16 +27,16 @@
       <input id="codigo" type="text" class="inputCod form-control enterNuevaFila soloNumero" maxlength="6">
       <label class="labels">Descripción</label>
       <input id="descripcion" type="text" class="celdaDesc form-control" readonly tabindex="-1">
-      <label class="labels">Precio</label>
-      <input id="precio" type="text" class="inputPrecio form-control" maxlength="9">
+      <label class="labels" id="precioLabel">Precio</label>
+      <input id="precio" type="text" class="inputPrecio form-control enterNuevaFila" maxlength="9" onkeypress="validaSoloNumero(event, value)">
       <label class="labels">CR</label>
-      <input id="cr" type="text" class="inputPrecio form-control" maxlength="9">
+      <input id="cr" type="text" class="inputPrecio form-control enterNuevaFila" maxlength="9" onkeypress="validaSoloNumero(event, value)">
       <label class="labels">Total</label>
       <div id="total" class="inputPrecio form-control">0</div>
       <label class="labels">Plan de cuotas</label>
       <select id="plan" class="inputSelect form-control"></select>
       <label class="labels">Cantidad</label>
-      <input id="cant" type="number" min="0" max="12" class="inputCant form-control enterNuevaFila soloNumero" value=1>
+      <input id="cant" type="text" class="inputCant form-control enterNuevaFila soloNumero" value=1 maxlength="1">
     </div>
     
     <input type=button value="Imprimir" class="btn btn-primary" onclick="imprimir()">
@@ -63,6 +63,7 @@
           <th class="columnaPrecio">Total</th>
           <th calss="columnaPlan">Plan</th>
           <th calss="columnaCant">Cant</th>
+          <th>X</th>
         </tr>
       </thead>
       <tbody>
