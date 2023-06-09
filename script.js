@@ -1,9 +1,14 @@
-const planes = [
-    ["12 Hipotecario", 12, 6, 6],
-    ["9 Naranja", 12, 9, 6],
-    ["4 Naranja", 12, 4, 6],
-    ["Ahora 12", 12, 12, 6]
-    ]
+const planes = [];
+
+function planesBD() {
+    if (localStorage["cantPlanes"]) {
+        for (let i = 0; i < localStorage["cantPlanes"]; i++) {
+            let p = JSON.parse(localStorage[i]);
+            planes.push([p.nombre])
+        }
+    }
+}
+planesBD();
 
 function listaPlanes(idSelect, planElegido) {
     for (let i = 0; i < planes.length; i++){
@@ -14,7 +19,6 @@ function listaPlanes(idSelect, planElegido) {
         } 
     } 
 }
-
 listaPlanes("plan");
 
 let numeroFila = 1;
@@ -41,15 +45,25 @@ function agregaFilaManual(){
 function agregaFilaExcel(arrExcel){
     $("#divTabla").show(400);
     for (let i = 0; i < arrExcel.length; i++) {
-        if (arrExcel[i]["Articulo"] !== "Total") {
-            let cod = arrExcel[i]["Articulo"];
-            let descripcion = arrExcel[i]["Desc. Articulo"];
-            let precio = arrExcel[i]["Precio Vigente"].toFixed(2);
-            let cr = 0;
-            let totalPrecioCr = precio;
-            let planElegido = 0;
-            let cant = 1;
-            agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
+        if (arrExcel[i]["Sector"] == "INFORMATICA" ||
+            arrExcel[i]["Sector"] == "G.E.D" ||
+            arrExcel[i]["Sector"] == "TELEFONIA" ||
+            arrExcel[i]["Sector"] == "IMAGEN Y SONIDO" ||
+            arrExcel[i]["Sector"] == "P.E.D." ||
+            arrExcel[i]["Sector"] == "TEMPORADA"
+            ) {
+            if (arrExcel[i]["Articulo"] !== "Total" &&
+                arrExcel[i]["Stock"] !== 0) {
+                let cod = arrExcel[i]["Articulo"];
+                let descripcion = arrExcel[i]["Desc. Articulo"];
+                let precio = arrExcel[i]["Precio Vigente"].toFixed(2);
+                let cr = 0;
+                let totalPrecioCr = precio;
+                //let artDB = JSON.parse(localStorage[cod]);
+                let planElegido = 0;
+                let cant = 1;
+                agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
+            }
         }
     }
 }
@@ -57,7 +71,7 @@ function agregaFilaExcel(arrExcel){
 function agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){
     let fila = '<tr id="'+numeroFila+'">'+
                 '<td>'+numeroFila+'</td>'+
-                '<td class="celdaAlineadaDerecha">'+cod+'</td>'+
+                '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" readonly tabindex="-1"></td>'+
                 '<td><input type="text" value="'+cr+'" class="celdaCr inputPrecio form-control" oninput="sum(this)" maxlength="9" onkeypress="validaSoloNumero(event, value)"></input></td>'+
@@ -190,10 +204,31 @@ function sum(a){
 }
 
 //Oculta la lista de articulos cargados
-$("#divTabla").hide();
+//$("#divTabla").hide();
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 function imprimir(){
-    window.open("etiqueta.html","miventana","width=600,height=600,menubar=no")
+    const listaCodigos = [];
+    for (let i = 1; i < numeroFila; i++) {
+        let cod = $('#'+i+' .celdaCodigo').html();
+        let precio = $('#'+i+' .celdaPrecio').val();
+        let cr = $('#'+i+' .celdaCr').val();
+        let total = $('#'+i+' .celdaTotalPrecioCr').val();
+        let plan = $('#'+i+' .inputSelect').val();
+        let cant = $('#'+i+' .inputCant').val();
+        listaCodigos.push({
+            "cod": cod,
+            "precio": precio,
+            "cr": cr,
+            "total": total,
+            "plan": plan,
+            "cant": cant,
+        })
+        let articulo = JSON.stringify(listaCodigos[i-1]);
+        sessionStorage[i] = articulo;
+    }
+    sessionStorage["numeroFilas"] = numeroFila;
+    window.open("etiqueta.html","Impresion","width=1200,height=1200,menubar=no")
 }
 
 
@@ -201,7 +236,7 @@ function imprimir(){
 
 function handleFiles(files){
     let file = files[0];
-
+    let b = 0; //bandera que controla si el archivo tiene una hoja con el nombre 1502
     const reader = new FileReader();
     reader.readAsBinaryString(file);
     reader.onload = (e) => {
@@ -214,15 +249,22 @@ function handleFiles(files){
         if (zzexcel.SheetNames[i] == "1502"){
             const newData = window.XLSX.utils.sheet_to_json(zzexcel.Sheets[zzexcel.SheetNames[i]]);
             result.push(...newData)
+            b = 1;
         }
       }
-      agregaFilaExcel(result);
+      if (b == 1) {
+          agregaFilaExcel(result);
+      }
+      else{
+        alert("Archivo de Cambio de precios incorrecto.")
+      }
       //console.log(result);
       //console.log(zzexcel.SheetNames);
       //console.log(result[5]["Desc. Articulo"]);
     }
 };
 
+/*
 function actualizaBd(files){
     let file = files[0];
 
@@ -247,6 +289,50 @@ function actualizaBd(files){
         localStorage[res[i]["cod"]] = articulo;
       }
       alert("base de datos actualizada");
+    }
+};
+*/
+function actualizaBd(files){
+    let file = files[0];
+
+    const reader = new FileReader();
+    reader.readAsBinaryString(file);
+    reader.onload = (e) => {
+        const data = e.target.result;
+        const zzexcel = window.XLSX.read(data, {
+            type: 'binary'
+        });
+        const res = [];
+        const planes = [];
+
+        if (zzexcel.SheetNames[0] == "BD"){
+            const newData = window.XLSX.utils.sheet_to_json(zzexcel.Sheets[zzexcel.SheetNames[0]]);
+            res.push(...newData)
+        
+            //Agrega los productos del excel a localStorage usando codigo como key
+            for (let i = 0; i < res.length; i++){
+                let articulo = JSON.stringify(res[i]);
+                localStorage[res[i]["cod"]] = articulo;
+            }
+
+            //planes de cuotas
+            const data = window.XLSX.utils.sheet_to_json(zzexcel.Sheets[zzexcel.SheetNames[1]]);
+            planes.push(...data)
+
+            for (let i = 0; i < planes.length; i++){
+                let plan = JSON.stringify(planes[i]);
+                localStorage[planes[i]["cod"]] = plan;
+            }
+
+            localStorage["cantPlanes"] = planes.length;
+            planesBD()
+
+            alert("Base de datos actualizada");
+        } else{
+            alert("Archivo de base de datos incorrecto");
+        }
+      
+
     }
 };
 //FIN LECTOR EXCEL
