@@ -17,6 +17,8 @@
     position: relative;
     color: white;
     font-family: "Sanuk Offc";
+    /* EN CASO DE DEFASAJE DEL MARGEN PARA IMPRIMIR */
+    /* margin-bottom: 5px; */
 }
 
 .box::before {
@@ -106,7 +108,7 @@
 .box .logo .part4 {
     height: 3.57%;
     background-color: #000000;
-    font-size: 11px;
+    font-size: 9px;
     display: flex;
     flex-direction: row;
 }
@@ -166,17 +168,6 @@
     display: flex;
     flex-direction: row;
     align-items:center;
-}
-
-.box .logo .part7{
-    background-color: #ff6600;
-}
-
-.box .logo .part8{
-    background-color: red;
-}
-.box .logo .part9{
-    background-color: blue;
 }
 
 .logoTarjeta{

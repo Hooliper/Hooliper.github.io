@@ -56,11 +56,24 @@ function agregaFilaExcel(arrExcel){
                 arrExcel[i]["Stock"] !== 0) {
                 let cod = arrExcel[i]["Articulo"];
                 let descripcion = arrExcel[i]["Desc. Articulo"];
-                let precio = arrExcel[i]["Precio Vigente"].toFixed(2);
-                let cr = 0;
-                let totalPrecioCr = precio;
-                //let artDB = JSON.parse(localStorage[cod]);
-                let planElegido = 0;
+                let precio = Number(arrExcel[i]["Precio Vigente"].toFixed(2));
+            
+                let artDB 
+                if (localStorage[cod]) {
+                    artDB = JSON.parse(localStorage[cod])
+                    if (artDB.cr == 'amarillo'){
+                        continue
+                    }
+                } else{
+                    artDB = {
+                        'planCuotas': planes[0][0],
+                        'cr': 0,
+                    }
+                }
+
+                let cr = Number(artDB.cr);
+                let totalPrecioCr = (precio+cr).toFixed(2);
+                let planElegido = planes.map(x => x[0]).indexOf(artDB.planCuotas);
                 let cant = 1;
                 agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
             }
@@ -73,7 +86,7 @@ function agregaFila(cod, descripcion, precio, cr, totalPrecioCr, planElegido, ca
                 '<td>'+numeroFila+'</td>'+
                 '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
-                '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" readonly tabindex="-1"></td>'+
+                '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" oninput="sum(this)" tabindex="-1"></td>'+
                 '<td><input type="text" value="'+cr+'" class="celdaCr inputPrecio form-control" oninput="sum(this)" maxlength="9" onkeypress="validaSoloNumero(event, value)"></input></td>'+
                 '<td><input type="text" value="'+totalPrecioCr+'" class="celdaTotalPrecioCr inputPrecio form-control" readonly tabindex="-1"></td>'+
                 '<td>'+
@@ -99,6 +112,7 @@ $('.enterNuevaFila').on('keypress',function(e) {
                 $('#descripcion').val(articulo["desc"]);
                 $("#divTabla").show(400);
                 agregaFilaManual(); 
+                $('#codigo').focus();
             }
             else{
                 errorDePrecio();
@@ -117,6 +131,9 @@ $('#codigo').on('focusout', function(){
         if (localStorage[codigo]){
             let articulo = JSON.parse(localStorage[codigo]);
             $('#descripcion').val(articulo["desc"]);
+            let planElegido = planes.map(x => x[0]).indexOf(articulo.planCuotas);
+            listaPlanes("plan", planElegido);
+            $('#cr').val(articulo["cr"]);
         }
         else{
             errorDeCodigo();
@@ -172,12 +189,21 @@ function soloNumeroCant(evt, val){
         }
 }
 
-//limita maxima cantidad de etiquetas a 8
+//limita maxima cantidad de etiquetas a 8 en listado de carga
 function limitMax(a){
     let idFila = $(a).parents('tr').attr('id');
     let val = Number($('#'+idFila+' .inputCant').val());
     if (val > 8) {
         $('#'+idFila+' .inputCant').val(8);
+    }
+}
+
+//limita maxima cantidad de etiquetas a 8 en carga manual
+function limitMaxCant(a){
+    let id = $(a).attr('id');
+    let val = Number($('#'+id).val());
+    if (val > 8) {
+        $('#'+id).val(8);
     }
 }
 
@@ -216,6 +242,7 @@ function imprimir(){
         let total = $('#'+i+' .celdaTotalPrecioCr').val();
         let plan = $('#'+i+' .inputSelect').val();
         let cant = $('#'+i+' .inputCant').val();
+        let desc = $('#'+i+' .celdaDesc').html();
         listaCodigos.push({
             "cod": cod,
             "precio": precio,
@@ -223,6 +250,7 @@ function imprimir(){
             "total": total,
             "plan": plan,
             "cant": cant,
+            "desc": desc
         })
         let articulo = JSON.stringify(listaCodigos[i-1]);
         sessionStorage[i] = articulo;

@@ -36,7 +36,7 @@
       <label class="labels">Plan de cuotas</label>
       <select id="plan" class="inputSelect form-control"></select>
       <label class="labels">Cantidad</label>
-      <input id="cant" type="text" class="inputCant form-control enterNuevaFila soloNumero" value=1 maxlength="1">
+      <input id="cant" type="number" min="0" max="8" class="inputCant form-control enterNuevaFila" value=1 onkeypress="soloNumeroCant(event, value)" oninput="limitMaxCant(this)">
     </div>
     
     <input type=button value="Imprimir" class="btn btn-primary" onclick="imprimir()">
