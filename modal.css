@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box {
+    flex-basis: 50%;
+    height: 50%;
+    position: relative;
+    color: white;
+    font-family: "Sanuk Offc";
+    /* EN CASO DE DEFASAJE DEL MARGEN PARA IMPRIMIR */
+    /* margin-bottom: 5px; */
+}
+
+.box::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.box .logo {
+    border: 2px solid #666;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.box .logo .part1 {
+    height: 3.57%;
+    background-color: #000000;
+}
+
+.box .logo .part1 h5 {
+    position: absolute;
+}
+
+.box .logo .part1 span {
+    margin-left: 75%;
+    font-size: 15px;
+}
+
+.box .logo .part1 span::before {
+    content: "COD ";
+}
+
+
+.box .logo .part2 {
+    height: 13%;
+    background-color: #000000;
+}
+
+.box .logo .part3 {
+    flex-basis: 33.33%;
+    height: 8.93%;
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+}
+
+.box .logo .part3 div{
+    width: 33.33%;
+    padding-top: 2px;
+}
+
+.box .logo .part3 .detalle,
+.box .logo .part3b .detalle{
+    display: flex;
+}
+
+.box .logo .part3 .detalle div,
+.box .logo .part3b .detalle div{
+    width: 70%;    
+    position: relative;
+    font-size: 12px;
+}
+
+.box .logo .divisionDetalles {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 1px #fff;
+    position: relative;
+}
+
+.box .logo .part3b {
+    height: 8.93%;
+    flex-direction: row;
+    display: flex;
+    background-color: #000000;
+}
+
+.box .logo .part3b div{
+    width: 33.33%;
+    padding-top: 2px;
+}
+
+.box .logo .part4 {
+    height: 3.57%;
+    background-color: #000000;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box .logo .part4 .descripcion::before{
+    font-size: 8px;
+    content: "Ref ";
+}
+
+.box .logo .part4 .descripcion{
+    width: 60%;
+}
+
+.box .logo .part4 .ean::before{
+    content: "EAN ";
+    font-size: 8px;
+}
+
+.box .logo .part4 .ean{
+    width: 39%;
+    text-align: right;
+}
+
+.box .logo .part5 {
+    height: 14.32%;
+    background-color: #fff;
+}
+
+.box .logo .part5 .precio{
+    color: #000000;
+    font-size: 55px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box .logo .part6 .leyendaGarantia{
+    font-size: 23px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box .logo .part6 {
+    height: 7.14%;
+    background-color: #000;
+}
+
+.box .logo .part7,
+.box .logo .part8,
+.box .logo .part9 {
+    height: 10.71%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.logoTarjeta{
+    width: 35%;
+    height: 90%;
+    border-radius: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cuotas{
+    width: 15%;
+    font-size: 33px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.interes{
+    width: 15%;
+    font-size: 12px;
+    text-align: center;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.precioCuota{
+    width: 35%;
+    font-size: 22px;
+    font-family: "Sanuk Offc Black";
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+.box .logo .part10 {
+    height: 3.57%;
+    background-color: #fff;
+}
+
+.part10 div{
+    text-align: center;
+    font-size: 12px;
+    color: #000;
+}
+
+.box .logo .part11 {
+    height: 8.71%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    color: #000;
+}
+
+.box .logo .part11 span{
+    width: 60%;
+    font-size: 22px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.precioContado {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.part12 {
+    color: #000;
+    height: 2%;
+    font-size: 8px;
+    text-align: right;
+}
+
+.modal-header button{
+    border: none;
+    font-size: 25px;
+    background-color: transparent;
+    height: 30px;
+    width: 30px;
+}
+
+#modalCod {
+    font-size: 15px;
+        height: 25px;
+        width: 65px;
+}
+
+#modalProducto{
+    font-size: 15px;
+        height: 25px;
+        width: 200px;
+}
+
+#modalMarca{
+    font-size: 20px;
+        height: 80%;
+        width: 400px;
+}

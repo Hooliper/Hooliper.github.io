@@ -6,9 +6,8 @@
 <title>Test</title>
 
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="modal.css">
 <link rel="stylesheet" href="bootstrap.css">
-
-
 
 </head>
 
@@ -16,6 +15,7 @@
 
 <div class="container-fluid">
   <div class="lateral">
+    
     <div class="mb-3 cambioDePrecios">
       <label for="formFile" class="form-label"><b>Cambio de precio</b></label>
       <input class="form-control" type="file" id="formFile" onchange="handleFiles(this.files)">
@@ -40,8 +40,119 @@
     </div>
     
     <input type=button value="Imprimir" class="btn btn-primary" onclick="imprimir()">
-    
-    <div class="cargaBd">
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#abmArticulo">Nuevo Art</button>
+
+    <!-- Modal -->
+<div class="modal fade" id="abmArticulo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar artículo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="box eti">
+          <div class="logo">
+          <div class="part1">
+          <h5><input type="text" id="modalProducto" placeholder="Producto"></h5>
+          <span><input type="text" id="modalCod" placeholder="Codigo"></span>
+          </div>
+              <div class="part2">
+                  <h1><input type="text" id="modalMarca" placeholder="Marca"></h1>
+              </div>
+              <div class="part3">
+                  <div class="detalle">
+                      <img src="iconos/'+logo1+'.png" width="40" height="40">
+                      <div><textarea name="" id="" cols="14" rows="2" rezised="none"></textarea></div>
+                      </div>
+                      
+                      <div class="divisionDetalles" style="width: 1px"></div>
+
+                      <div class="detalle">
+                          <img src="iconos/'+logo2+'.png" width="40" height="40">
+                          <div>'+detalle2+'</div>
+                          </div>
+
+                          <div class="divisionDetalles" style="width: 1px"></div>
+                          
+                          <div class="detalle">
+                          <img src="iconos/'+logo3+'.png" width="40" height="40">
+                          <div>'+detalle3+'</div>
+                      </div>
+                  </div>
+                  <div class="divisionDetalles" style="height: 1px"></div>
+                  <div class="part3b">
+                      <div class="detalle">
+                          <img src="iconos/'+logo4+'.png" width="40" height="40">
+                          <div>'+detalle4+'</div>
+                      </div>
+
+                      <div class="divisionDetalles" style="width: 1px"></div>
+
+                      <div class="detalle">
+                          <img src="iconos/'+logo5+'.png" width="40" height="40">
+                          <div>'+detalle5+'</div>
+                      </div>
+                      
+                      <div class="divisionDetalles" style="width: 1px"></div>
+                      
+                      <div class="detalle">
+                          <img src="iconos/'+logo6+'.png" width="40" height="40">
+                          <div>'+detalle6+'</div>
+                      </div>
+                  </div>
+                          
+                  <div class="part4">
+                  <div class="descripcion">'+desc+'</div>
+                      <div class="ean">'+ean+'</div>
+                  </div>
+                  
+                  <div class="part5">
+                  <div class="precio">'+precioTotal+'</div>
+                  </div>
+                  <div class="part6">
+                      <div class="leyendaGarantia">'+conGarantia+'</div>
+                  </div>
+                  <div class="part7" style="background-color: '+colorTarjeta1+'">
+                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta1+'.png" width="80" height="36"></div>
+                      <div class="cuotas">'+cantCuotas1+'</div>
+                      <div class="interes">'+leyendaInteres1+'</div>
+                      <div class="precioCuota">'+precioCuota1+'</div>
+                  </div>
+                  <div class="part8" style="background-color: '+colorTarjeta2+'">
+                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta2+'.png" width="80" height="36"></div>
+                      <div class="cuotas">'+cantCuotas2+'</div>
+                      <div class="interes">'+leyendaInteres2+'</div>
+                      <div class="precioCuota">'+precioCuota2+'</div>
+                  </div>
+                  <div class="part9" style="background-color: '+colorTarjeta3+'">
+                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta3+'.png" width="80" height="36"></div>
+                      <div class="cuotas">'+cantCuotas3+'</div>
+                      <div class="interes">'+leyendaInteres3+'</div>
+                      <div class="precioCuota">'+precioCuota3+'</div>
+                  </div>
+              </div>
+            </div>;
+
+
+
+
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Guardar</button>
+        </div>
+    </div>
+  </div>
+</div>
+   <!-- Fin Modal --> 
+
+    <div class="mb-3 cargaBd">
       <label for="formFile" class="form-label"><b>Base de Datos</b></label>
       <input class="form-control" type="file" onchange="actualizaBd(this.files)">
     </div>
@@ -52,10 +163,21 @@
   </div>
 
   <div id="divTabla">
+    <ul class="nav nav-pills">
+      <li class="nav-item tabImprimir">
+        <a class="nav-link active" href="#">Etiquetas a imprimir</a>
+      </li>
+      <li class="nav-item tabAmarilla" style="display: none">
+        <a class="nav-link" href="#">Etiquetas amarillas</a>
+      </li>
+      <li class="nav-item tab0" style="display: none">
+        <a class="nav-link" href="#">Stock 0</a>
+      </li>
+    </ul>
     <table id="tabla" class="table users table-hover table-sm">
       <thead>
         <tr>
-          <th class="columnaCod">N</th>  
+          <th class="columnaCod">N</th>
           <th class="columnaCod">Cod</th>
           <th class="columnaDesc">Descripcion</th>
           <th class="columnaPrecio">Precio</th>
@@ -63,7 +185,7 @@
           <th class="columnaPrecio">Total</th>
           <th calss="columnaPlan">Plan</th>
           <th calss="columnaCant">Cant</th>
-          <th>X</th>
+          <th id="x">X</th>
         </tr>
       </thead>
       <tbody>
@@ -76,10 +198,9 @@
 </body>
 
 <script type="text/javascript" src="jquery-3.6.4.min.js"></script>
-<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
 <script type="text/javascript" src="xlsx.full.min.js"></script>
 
 <script type="text/javascript" src="script.js"></script>
-
 
 </html>

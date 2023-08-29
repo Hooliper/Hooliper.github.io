@@ -97,14 +97,6 @@
 	text-align: left;
 }
 
-.inputCant {
-	
-}
-
-.inputSelect {
-	
-}
-
 .columnaCod {
 	width: 5%;
 }
@@ -156,4 +148,12 @@ td {
 .borrar{
 	color: red;
 	text-decoration:none;
+}
+
+.botonEdit{
+  border: none;
+  color: black;
+  padding: 3px 3px;
+  font-size: 10px;
+  cursor: pointer;
 }

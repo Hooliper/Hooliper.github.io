@@ -109,56 +109,24 @@ function tabImprimir (listaImprimir) {
 }
 
 $('.tabImprimir a').on('click', function(e) {
-    $('#x').show();
     $('#divTabla a.active').removeClass('active');
     $('.tabImprimir a').addClass('active');
     tabImprimir(listaImprimir)
 });
 
-function tabImprimirSinX (lista) {
-    $('#tabla tbody').empty();
-    for (let x of lista) {
-        //agregaFila(numeroFila, cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant);
-        agregaFilaSinX(x[0], x[1], x[2], x[3], x[4], x[5], x[6], x[7])
-      }
-}
-
 $('.tabAmarilla a').on('click', function(e) {
-    $('#x').hide();
     $('#divTabla a.active').removeClass('active');
     $('.tabAmarilla a').addClass('active');
-    tabImprimirSinX(listaAmarilla)
+    tabImprimir(listaAmarilla)
 });
 
 $('.tab0 a').on('click', function(e) {
-    $('#x').hide();
     $('#divTabla a.active').removeClass('active');
     $('.tab0 a').addClass('active');
-    tabImprimirSinX(lista0)
+    tabImprimir(lista0)
 });
 
 function agregaFila(numeroFila, cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){
-    let fila = '<tr id="'+numeroFila+'">'+
-                '<td>'+numeroFila+'<button type="button" class="botonEdit" data-toggle="modal" data-target="#abmArticulo"><img src="iconos/pencil-square.svg" alt="edit" width="15" height="15"></button></td>'+
-                '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
-                '<td class="celdaDesc">'+descripcion+'</td>'+
-                '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" oninput="sum(this)" tabindex="-1"></td>'+
-                '<td><input type="text" value="'+cr+'" class="celdaCr inputPrecio form-control" oninput="sum(this)" maxlength="9" onkeypress="validaSoloNumero(event, value)"></input></td>'+
-                '<td><input type="text" value="'+totalPrecioCr+'" class="celdaTotalPrecioCr inputPrecio form-control" readonly tabindex="-1"></td>'+
-                '<td>'+
-                    '<select id="planFila'+numeroFila+'" class="inputSelect form-control">'+
-                        
-                    '</select>'+
-                '<td><input type="number" min="0" max="8" class="inputCant form-control" value="'+cant+'" onkeypress="soloNumeroCant(event, value)" oninput="limitMax(this)"></td>'+  
-                '</td>'+
-                '<td><b><a href="#" class="borrar" onclick="eliminaFila(this)">X</a></b><td/>'+
-            '</tr>';
-
-    $('#tabla tbody').append(fila); 
-    listaPlanes("planFila"+numeroFila, planElegido)   
-}
-
-function agregaFilaSinX(numeroFila, cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){
     let fila = '<tr id="'+numeroFila+'">'+
                 '<td>'+numeroFila+'</td>'+
                 '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
@@ -172,7 +140,7 @@ function agregaFilaSinX(numeroFila, cod, descripcion, precio, cr, totalPrecioCr,
                     '</select>'+
                 '<td><input type="number" min="0" max="8" class="inputCant form-control" value="'+cant+'" onkeypress="soloNumeroCant(event, value)" oninput="limitMax(this)"></td>'+  
                 '</td>'+
-                
+                '<td><b><a href="#" class="borrar" onclick="eliminaFila(this)">X</a></b><td/>'+
             '</tr>';
 
     $('#tabla tbody').append(fila); 
