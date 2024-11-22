@@ -137,9 +137,10 @@ $('.tab0 a').on('click', function(e) {
     tabImprimirSinX(lista0)
 });
 
+
 function agregaFila(numeroFila, cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){
     let fila = '<tr id="'+numeroFila+'">'+
-                '<td>'+numeroFila+'<button type="button" class="botonEdit" data-toggle="modal" data-target="#abmArticulo"><img src="iconos/pencil-square.svg" alt="edit" width="15" height="15"></button></td>'+
+                '<td>'+numeroFila+'<button type="button" class="botonEdit" data-toggle="modal" data-target="#abmArticulo" onclick="editarArticulo(this)"><img src="iconos/pencil-square.svg" alt="edit" width="15" height="15"></button></td>'+
                 '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" oninput="sum(this)" tabindex="-1"></td>'+
@@ -425,3 +426,43 @@ function actualizaBd(files){
 localStorage.setItem('videoDetails', JSON.stringify(videoDetails) );
 var videoDetails = JSON.parse(localStorage.getItem('videoDetails');
 */
+
+function editarArticulo(button) {
+    // Obtener el código de la celda en la misma fila que el botón
+  var codigo = $(button).closest('tr').find('.celdaCodigo').text();
+  
+  // Recuperar los datos del artículo desde localStorage
+  var articulo = JSON.parse(localStorage[codigo]); // Suponiendo que el código es único y se utiliza para acceder al artículo en localStorage
+
+  // Verificar que el artículo se encontró en localStorage
+  if (articulo) {
+    // Cargar los datos en el modal
+    $('#modalCod').val(articulo.cod);            // Código
+    $('#modalDesc').val(articulo.desc);          // Descripción
+    $('#modalProducto').val(articulo.producto);  // Producto
+    $('#modalMarca').val(articulo.marca);        // Marca
+    $('#detalle1').val(articulo.detalle1);       // Detalle 1
+    $('#detalle2').val(articulo.detalle2);       // Detalle 2
+    $('#detalle3').val(articulo.detalle3);       // Detalle 3
+    $('#detalle4').val(articulo.detalle4);       // Detalle 4
+    $('#detalle5').val(articulo.detalle5);       // Detalle 5
+    $('#detalle6').val(articulo.detalle6);       // Detalle 6
+    $('#modalEAN').val(articulo.ean);            // EAN
+    $('#modalPlan').val(articulo.planCuotas);    // Plan de cuotas
+    
+    $('#detalleImg1').attr('src', 'iconos/'+articulo.logo1+'.png');
+    $('#detalleImg2').attr('src', 'iconos/'+articulo.logo2+'.png');
+    $('#detalleImg3').attr('src', 'iconos/'+articulo.logo3+'.png');
+    $('#detalleImg4').attr('src', 'iconos/'+articulo.logo4+'.png');
+    $('#detalleImg5').attr('src', 'iconos/'+articulo.logo5+'.png');
+    $('#detalleImg6').attr('src', 'iconos/'+articulo.logo6+'.png');
+
+    let planModal = planes.map(x => x[0]).indexOf(articulo.planCuotas);
+    $('#modalPlan').empty();
+    listaPlanes("modalPlan", planModal);
+
+  } else {
+    console.log("Artículo no encontrado en localStorage.");
+  }
+  
+}

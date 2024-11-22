@@ -157,3 +157,37 @@ td {
   font-size: 10px;
   cursor: pointer;
 }
+
+.image-selector {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: black;
+  }
+  
+  .selectable-image {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+  }
+  
+  .selectable-image:hover {
+	opacity: 0.7;
+  }
+
+  .detalleImg {
+	cursor: pointer;
+  }
+
+  #modalPlan {
+    width: 95%;
+    height: 32px; 
+    padding: 5px 10px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#modalEAN {
+	margin-right: 8px;
+}

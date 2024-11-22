@@ -67,74 +67,56 @@
               </div>
               <div class="part3">
                   <div class="detalle">
-                      <img src="iconos/'+logo1+'.png" width="40" height="40">
-                      <div><textarea name="" id="" cols="14" rows="2" rezised="none"></textarea></div>
-                      </div>
+                     <img id="detalleImg1" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg1')">
+                     <div><textarea id="detalle1" cols="14" rows="2" rezised="none"></textarea></div>
+                    </div>
                       
-                      <div class="divisionDetalles" style="width: 1px"></div>
+                    <div class="divisionDetalles" style="width: 1px"></div>
 
-                      <div class="detalle">
-                          <img src="iconos/'+logo2+'.png" width="40" height="40">
-                          <div>'+detalle2+'</div>
-                          </div>
+                    <div class="detalle">
+                     <img id="detalleImg2" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg2')">
+                     <div><textarea id="detalle2" cols="14" rows="2" rezised="none"></textarea></div>
+                    </div>
 
-                          <div class="divisionDetalles" style="width: 1px"></div>
+                    <div class="divisionDetalles" style="width: 1px"></div>
                           
-                          <div class="detalle">
-                          <img src="iconos/'+logo3+'.png" width="40" height="40">
-                          <div>'+detalle3+'</div>
-                      </div>
+                    <div class="detalle">
+                     <img id="detalleImg3" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg3')">
+                     <div><textarea id="detalle3" cols="14" rows="2" rezised="none"></textarea></div>
+                    </div>
                   </div>
                   <div class="divisionDetalles" style="height: 1px"></div>
                   <div class="part3b">
-                      <div class="detalle">
-                          <img src="iconos/'+logo4+'.png" width="40" height="40">
-                          <div>'+detalle4+'</div>
-                      </div>
+                    <div class="detalle">
+                     <img id="detalleImg4" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg4')">
+                     <div><textarea id="detalle4" cols="14" rows="2" rezised="none"></textarea></div>
+                    </div>
 
-                      <div class="divisionDetalles" style="width: 1px"></div>
+                    <div class="divisionDetalles" style="width: 1px"></div>
 
-                      <div class="detalle">
-                          <img src="iconos/'+logo5+'.png" width="40" height="40">
-                          <div>'+detalle5+'</div>
+                    <div class="detalle">
+                      <img id="detalleImg5" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg5')">
+                      <div><textarea id="detalle5" cols="14" rows="2" rezised="none"></textarea></div>
                       </div>
                       
                       <div class="divisionDetalles" style="width: 1px"></div>
                       
                       <div class="detalle">
-                          <img src="iconos/'+logo6+'.png" width="40" height="40">
-                          <div>'+detalle6+'</div>
+                        <img id="detalleImg6" class="detalleImg" src="iconos/Detalles.png" width="40" height="40" onclick="abrirSelectorImagen('detalleImg6')">
+                        <div><textarea id="detalle6" cols="14" rows="2" rezised="none"></textarea></div>
                       </div>
                   </div>
                           
                   <div class="part4">
-                  <div class="descripcion">'+desc+'</div>
-                      <div class="ean">'+ean+'</div>
+                  <div class="descripcion"><input type="text" id="modalDesc" placeholder="Descripción"></div>
+                      <div class="ean"><input type="text" id="modalEAN" placeholder="EAN"></div>
                   </div>
-                  
                   <div class="part5">
-                  <div class="precio">'+precioTotal+'</div>
-                  </div>
-                  <div class="part6">
-                      <div class="leyendaGarantia">'+conGarantia+'</div>
-                  </div>
-                  <div class="part7" style="background-color: '+colorTarjeta1+'">
-                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta1+'.png" width="80" height="36"></div>
-                      <div class="cuotas">'+cantCuotas1+'</div>
-                      <div class="interes">'+leyendaInteres1+'</div>
-                      <div class="precioCuota">'+precioCuota1+'</div>
-                  </div>
-                  <div class="part8" style="background-color: '+colorTarjeta2+'">
-                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta2+'.png" width="80" height="36"></div>
-                      <div class="cuotas">'+cantCuotas2+'</div>
-                      <div class="interes">'+leyendaInteres2+'</div>
-                      <div class="precioCuota">'+precioCuota2+'</div>
-                  </div>
-                  <div class="part9" style="background-color: '+colorTarjeta3+'">
-                      <div class="logoTarjeta"><img src="iconos/'+logoTarjeta3+'.png" width="80" height="36"></div>
-                      <div class="cuotas">'+cantCuotas3+'</div>
-                      <div class="interes">'+leyendaInteres3+'</div>
-                      <div class="precioCuota">'+precioCuota3+'</div>
+                    <div class="modalPlan">
+                      <select name="modalPlan" id="modalPlan" class="form-control">
+                        
+                      </select>
+                    </div>
                   </div>
               </div>
             </div>;
@@ -151,6 +133,82 @@
   </div>
 </div>
    <!-- Fin Modal --> 
+
+<!-- Modal para seleccionar una nueva imagen -->
+<div class="modal fade" id="selectorImagenModal" tabindex="-1" role="dialog" aria-labelledby="selectorImagenLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="selectorImagenLabel">Selecciona una imagen</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Lista de imágenes -->
+        <div class="image-selector">
+          <img src="iconos/Elegir Logo2.png" class="selectable-image" onclick="cambiarImagen('iconos/Elegir Logo2.png')">
+          <img src="iconos/Detalles.png" class="selectable-image" onclick="cambiarImagen('iconos/Detalles.png')">
+          <img src="iconos/Micro SD.png" class="selectable-image" onclick="cambiarImagen('iconos/Micro SD.png')">
+          <img src="iconos/control remoto.png" class="selectable-image" onclick="cambiarImagen('iconos/control remoto.png')">
+          <img src="iconos/decibeles.png" class="selectable-image" onclick="cambiarImagen('iconos/decibeles.png')">
+          <img src="iconos/microfono.png" class="selectable-image" onclick="cambiarImagen('iconos/microfono.png')">
+          <img src="iconos/regulador.png" class="selectable-image" onclick="cambiarImagen('iconos/regulador.png')">
+          <img src="iconos/temporizador.png" class="selectable-image" onclick="cambiarImagen('iconos/temporizador.png')">
+          <img src="iconos/eficiencia.png" class="selectable-image" onclick="cambiarImagen('iconos/eficiencia.png')">
+          <img src="iconos/Sistema Operativo.png" class="selectable-image" onclick="cambiarImagen('iconos/Sistema Operativo.png')">
+          <img src="iconos/Windows.png" class="selectable-image" onclick="cambiarImagen('iconos/Windows.png')">
+          <img src="iconos/Android.png" class="selectable-image" onclick="cambiarImagen('iconos/Android.png')">
+          <img src="iconos/iOS.png" class="selectable-image" onclick="cambiarImagen('iconos/iOS.png')">
+          <img src="iconos/Auxiliar.png" class="selectable-image" onclick="cambiarImagen('iconos/Auxiliar.png')">
+          <img src="iconos/Control por Voz.png" class="selectable-image" onclick="cambiarImagen('iconos/Control por Voz.png')">
+          <img src="iconos/Peso.png" class="selectable-image" onclick="cambiarImagen('iconos/Peso.png')">
+          <img src="iconos/Iluminacion.png" class="selectable-image" onclick="cambiarImagen('iconos/Iluminacion.png')">
+          <img src="iconos/Huella Cel.png" class="selectable-image" onclick="cambiarImagen('iconos/Huella Cel.png')">
+          <img src="iconos/Radio.png" class="selectable-image" onclick="cambiarImagen('iconos/Radio.png')">
+          <img src="iconos/USB.png" class="selectable-image" onclick="cambiarImagen('iconos/USB.png')">
+          <img src="iconos/Bluetooth.png" class="selectable-image" onclick="cambiarImagen('iconos/Bluetooth.png')">
+          <img src="iconos/Litros.png" class="selectable-image" onclick="cambiarImagen('iconos/Litros.png')">
+          <img src="iconos/Freezer.png" class="selectable-image" onclick="cambiarImagen('iconos/Freezer.png')">
+          <img src="iconos/Heladera.png" class="selectable-image" onclick="cambiarImagen('iconos/Heladera.png')">
+          <img src="iconos/medidas.png" class="selectable-image" onclick="cambiarImagen('iconos/medidas.png')">
+          <img src="iconos/flecha ancho.png" class="selectable-image" onclick="cambiarImagen('iconos/flecha ancho.png')">
+          <img src="iconos/flecha alto.png" class="selectable-image" onclick="cambiarImagen('iconos/flecha alto.png')">
+          <img src="iconos/area.png" class="selectable-image" onclick="cambiarImagen('iconos/area.png')">
+          <img src="iconos/Frio Calor.png" class="selectable-image" onclick="cambiarImagen('iconos/Frio Calor.png')">
+          <img src="iconos/Frio Solo.png" class="selectable-image" onclick="cambiarImagen('iconos/Frio Solo.png')">
+          <img src="iconos/Frigorias.png" class="selectable-image" onclick="cambiarImagen('iconos/Frigorias.png')">
+          <img src="iconos/Centrifugado.png" class="selectable-image" onclick="cambiarImagen('iconos/Centrifugado.png')">
+          <img src="iconos/KG Ropa.png" class="selectable-image" onclick="cambiarImagen('iconos/KG Ropa.png')">
+          <img src="iconos/Diametro.png" class="selectable-image" onclick="cambiarImagen('iconos/Diametro.png')">
+          <img src="iconos/Motor.png" class="selectable-image" onclick="cambiarImagen('iconos/Motor.png')">
+          <img src="iconos/Watts.png" class="selectable-image" onclick="cambiarImagen('iconos/Watts.png')">
+          <img src="iconos/Watts RMS.png" class="selectable-image" onclick="cambiarImagen('iconos/Watts RMS.png')">
+          <img src="iconos/Youtube.png" class="selectable-image" onclick="cambiarImagen('iconos/Youtube.png')">
+          <img src="iconos/Netflix.png" class="selectable-image" onclick="cambiarImagen('iconos/Netflix.png')">
+          <img src="iconos/Wifi.png" class="selectable-image" onclick="cambiarImagen('iconos/Wifi.png')">
+          <img src="iconos/Smart TV.png" class="selectable-image" onclick="cambiarImagen('iconos/Smart TV.png')">
+          <img src="iconos/Tv Full HD.png" class="selectable-image" onclick="cambiarImagen('iconos/Tv Full HD.png')">
+          <img src="iconos/Tv HD.png" class="selectable-image" onclick="cambiarImagen('iconos/Tv HD.png')">
+          <img src="iconos/Tv 4k.png" class="selectable-image" onclick="cambiarImagen('iconos/Tv 4k.png')">
+          <img src="iconos/Pantalla TV.png" class="selectable-image" onclick="cambiarImagen('iconos/Pantalla TV.png')">
+          <img src="iconos/pantalla tv sola.png" class="selectable-image" onclick="cambiarImagen('iconos/pantalla tv sola.png')">
+          <img src="iconos/HDMI.png" class="selectable-image" onclick="cambiarImagen('iconos/HDMI.png')">
+          <img src="iconos/Procesador.png" class="selectable-image" onclick="cambiarImagen('iconos/Procesador.png')">
+          <img src="iconos/Camara Selfie.png" class="selectable-image" onclick="cambiarImagen('iconos/Camara Selfie.png')">
+          <img src="iconos/Camara Principal.png" class="selectable-image" onclick="cambiarImagen('iconos/Camara Principal.png')">
+          <img src="iconos/Pantalla Celular.png" class="selectable-image" onclick="cambiarImagen('iconos/Pantalla Celular.png')">
+          <img src="iconos/Pulgadas Notebook.png" class="selectable-image" onclick="cambiarImagen('iconos/Pulgadas Notebook.png')">
+          <img src="iconos/Memoria.png" class="selectable-image" onclick="cambiarImagen('iconos/Memoria.png')">
+          <img src="iconos/Bateria.png" class="selectable-image" onclick="cambiarImagen('iconos/Bateria.png')">
+          <!-- Agrega más imágenes si es necesario -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal para seleccionar una nueva imagen -->
+
 
     <div class="mb-3 cargaBd">
       <label for="formFile" class="form-label"><b>Base de Datos</b></label>
@@ -202,5 +260,25 @@
 <script type="text/javascript" src="xlsx.full.min.js"></script>
 
 <script type="text/javascript" src="script.js"></script>
+
+<script>
+
+let imagenSeleccionada = null; // Variable para guardar cuál imagen se está seleccionando
+
+  // Función para abrir el selector de imágenes
+function abrirSelectorImagen(imagenId) {
+  imagenSeleccionada = imagenId;  // Guardamos el id de la imagen seleccionada
+  $('#selectorImagenModal').modal('show'); // Abrimos el modal (usando Bootstrap)
+}
+
+// Función para cambiar la imagen seleccionada
+function cambiarImagen(imagenUrl) {
+  // Actualizamos la imagen en el elemento seleccionado
+  document.getElementById(imagenSeleccionada).src = imagenUrl;
+
+  // Cerramos el modal
+  $('#selectorImagenModal').modal('hide');
+}
+</script>
 
 </html>
