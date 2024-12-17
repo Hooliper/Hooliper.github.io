@@ -139,8 +139,15 @@ $('.tab0 a').on('click', function(e) {
 
 
 function agregaFila(numeroFila, cod, descripcion, precio, cr, totalPrecioCr, planElegido, cant){
+
+    let botonEdtit = "pencil-square";
+
+    if (!localStorage[cod]) {
+        botonEdtit = "pencil-square-red";
+    }
+
     let fila = '<tr id="'+numeroFila+'">'+
-                '<td>'+numeroFila+'<button type="button" class="botonEdit" data-toggle="modal" data-target="#abmArticulo" onclick="editarArticulo(this)"><img src="iconos/pencil-square.svg" alt="edit" width="15" height="15"></button></td>'+
+                '<td>'+numeroFila+'<button type="button" class="botonEdit" data-toggle="modal" data-target="#abmArticulo" onclick="editarArticulo(this)"><img src="iconos/'+botonEdtit+'.svg" alt="edit" width="15" height="15"></button></td>'+
                 '<td class="celdaCodigo celdaAlineadaDerecha">'+cod+'</td>'+
                 '<td class="celdaDesc">'+descripcion+'</td>'+
                 '<td><input type="text" value="'+precio+'" class="celdaPrecio inputPrecio form-control" oninput="sum(this)" tabindex="-1"></td>'+
@@ -428,11 +435,44 @@ var videoDetails = JSON.parse(localStorage.getItem('videoDetails');
 */
 
 function editarArticulo(button) {
+  // Limpiar los estilos de error anteriores
+  $('#modalCod, #modalProducto, #modalMarca, #detalle1, #modalDesc, #modalEAN').removeClass('input-error');
+  $('#error-message').hide(); // Ocultar el mensaje de error anterior
+
     // Obtener el código de la celda en la misma fila que el botón
   var codigo = $(button).closest('tr').find('.celdaCodigo').text();
+  var descripcion = $(button).closest('tr').find('.celdaDesc').text();
   
   // Recuperar los datos del artículo desde localStorage
-  var articulo = JSON.parse(localStorage[codigo]); // Suponiendo que el código es único y se utiliza para acceder al artículo en localStorage
+  if (localStorage[codigo]) {
+      var articulo = JSON.parse(localStorage[codigo]); // Suponiendo que el código es único y se utiliza para acceder al artículo en localStorage
+  }
+
+    //Vaciar modal
+    $('#modalCod').val(codigo);            // Código
+    $('#modalDesc').val(descripcion);          // Descripción
+    $('#modalProducto').val('');  // Producto
+    $('#modalMarca').val('');        // Marca
+    $('#detalle1').val('');       // Detalle 1
+    $('#detalle2').val('');       // Detalle 2
+    $('#detalle3').val('');       // Detalle 3
+    $('#detalle4').val('');       // Detalle 4
+    $('#detalle5').val('');       // Detalle 5
+    $('#detalle6').val('');       // Detalle 6
+    $('#modalEAN').val('');            // EAN
+    $('#modalPlan').val('');    // Plan de cuotas
+    $('#modalCodCR').val('');    // Cod CR
+    $('#modalCR').val('');              // CR
+    
+    $('#detalleImg1').attr('src', 'iconos/detalles.png');
+    $('#detalleImg2').attr('src', 'iconos/Elegir Logo2.png');
+    $('#detalleImg3').attr('src', 'iconos/Elegir Logo2.png');
+    $('#detalleImg4').attr('src', 'iconos/Elegir Logo2.png');
+    $('#detalleImg5').attr('src', 'iconos/Elegir Logo2.png');
+    $('#detalleImg6').attr('src', 'iconos/Elegir Logo2.png');
+
+    $('#modalPlan').empty();
+    listaPlanes("modalPlan");
 
   // Verificar que el artículo se encontró en localStorage
   if (articulo) {
@@ -449,6 +489,8 @@ function editarArticulo(button) {
     $('#detalle6').val(articulo.detalle6);       // Detalle 6
     $('#modalEAN').val(articulo.ean);            // EAN
     $('#modalPlan').val(articulo.planCuotas);    // Plan de cuotas
+    $('#modalCodCR').val(articulo["Cod CR"]);    // Cod CR
+    $('#modalCR').val(articulo.cr);              // CR
     
     $('#detalleImg1').attr('src', 'iconos/'+articulo.logo1+'.png');
     $('#detalleImg2').attr('src', 'iconos/'+articulo.logo2+'.png');
@@ -466,3 +508,147 @@ function editarArticulo(button) {
   }
   
 }
+
+/*function guardarArticulo() {
+    // Recuperar los valores de los campos del modal
+    var codigo = $('#modalCod').val();              // Código
+    var descripcion = $('#modalDesc').val();        // Descripción
+    var producto = $('#modalProducto').val();       // Producto
+    var marca = $('#modalMarca').val();             // Marca
+    var detalle1 = $('#detalle1').val();            // Detalle 1
+    var detalle2 = $('#detalle2').val();            // Detalle 2
+    var detalle3 = $('#detalle3').val();            // Detalle 3
+    var detalle4 = $('#detalle4').val();            // Detalle 4
+    var detalle5 = $('#detalle5').val();            // Detalle 5
+    var detalle6 = $('#detalle6').val();            // Detalle 6
+    var ean = $('#modalEAN').val();                 // EAN
+    var planCuotas = $('#modalPlan').val();         // Plan de cuotas
+    var codCR = $('#modalCodCR').val();            // Cod CR
+    var cr = $('#modalCR').val();                  // CR
+
+    // Recuperar las rutas de los logos (si el usuario cambió alguna imagen)
+    var logo1 = $('#detalleImg1').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo2 = $('#detalleImg2').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo3 = $('#detalleImg3').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo4 = $('#detalleImg4').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo5 = $('#detalleImg5').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo6 = $('#detalleImg6').attr('src').replace('iconos/', '').replace('.png', '');
+
+    // Crear el objeto con los datos actualizados
+    var articulo = {
+        cod: codigo,
+        desc: descripcion,
+        producto: producto,
+        marca: marca,
+        detalle1: detalle1,
+        detalle2: detalle2,
+        detalle3: detalle3,
+        detalle4: detalle4,
+        detalle5: detalle5,
+        detalle6: detalle6,
+        ean: ean,
+        planCuotas: planCuotas,
+        logo1: logo1,
+        logo2: logo2,
+        logo3: logo3,
+        logo4: logo4,
+        logo5: logo5,
+        logo6: logo6,
+        "Cod CR": codCR,
+        cr: cr
+    };
+
+    // Guardar o actualizar el artículo en localStorage
+    //localStorage.setItem(codigo, JSON.stringify(articulo));
+    console.log(JSON.stringify(articulo));
+
+    // Opcional: Cerrar el modal después de guardar
+    //$('#abmArticulo').modal('hide');
+
+    // Opcional: Mostrar un mensaje de éxito
+    //alert('Artículo guardado correctamente!');
+}
+*/
+
+function guardarArticulo() {
+    // Recuperar los valores de los campos del modal
+    var codigo = $('#modalCod').val().trim();              // Código
+    var descripcion = $('#modalDesc').val().trim();        // Descripción
+    var producto = $('#modalProducto').val().trim();       // Producto
+    var marca = $('#modalMarca').val().trim();             // Marca
+    var detalle1 = $('#detalle1').val().trim();            // Detalle 1
+    var ean = $('#modalEAN').val().trim();                 // EAN
+
+    // Limpiar los estilos de error anteriores
+    $('#modalCod, #modalProducto, #modalMarca, #detalle1, #modalDesc, #modalEAN').removeClass('input-error');
+    $('#error-message').hide(); // Ocultar el mensaje de error anterior
+
+    // Verificar si los campos esenciales están vacíos
+    var errores = [];
+    if (!codigo) errores.push("El código es obligatorio.");
+    if (!producto) errores.push("El producto es obligatorio.");
+    if (!marca) errores.push("La marca es obligatoria.");
+    if (!detalle1) errores.push("El detalle 1 es obligatorio.");
+    if (!descripcion) errores.push("La descripción es obligatoria.");
+    if (!ean) errores.push("El EAN es obligatorio.");
+
+    // Si hay errores, mostrar el mensaje en el modal y resaltar los campos vacíos
+    if (errores.length > 0) {
+        var mensajeError = "Por favor, complete los campos resaltados en rojo";
+
+        // Mostrar el mensaje de error en la interfaz
+        $('#error-message').text(mensajeError).show();
+
+        // Resaltar los campos vacíos con un borde rojo
+        if (!codigo) $('#modalCod').addClass('input-error');
+        if (!producto) $('#modalProducto').addClass('input-error');
+        if (!marca) $('#modalMarca').addClass('input-error');
+        if (!detalle1) $('#detalle1').addClass('input-error');
+        if (!descripcion) $('#modalDesc').addClass('input-error');
+        if (!ean) $('#modalEAN').addClass('input-error');
+
+        return; // Detener la ejecución de la función
+    }
+
+    // Recuperar las rutas de los logos (si el usuario cambió alguna imagen)
+    var logo1 = $('#detalleImg1').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo2 = $('#detalleImg2').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo3 = $('#detalleImg3').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo4 = $('#detalleImg4').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo5 = $('#detalleImg5').attr('src').replace('iconos/', '').replace('.png', '');
+    var logo6 = $('#detalleImg6').attr('src').replace('iconos/', '').replace('.png', '');
+
+    // Crear el objeto con los datos actualizados
+    var articulo = {
+        cod: codigo,
+        desc: descripcion,
+        producto: producto,
+        marca: marca,
+        detalle1: detalle1,
+        detalle2: $('#detalle2').val().trim(),
+        detalle3: $('#detalle3').val().trim(),
+        detalle4: $('#detalle4').val().trim(),
+        detalle5: $('#detalle5').val().trim(),
+        detalle6: $('#detalle6').val().trim(),
+        ean: ean,
+        planCuotas: $('#modalPlan').val().trim(),
+        logo1: logo1,
+        logo2: logo2,
+        logo3: logo3,
+        logo4: logo4,
+        logo5: logo5,
+        logo6: logo6,
+        "Cod CR": $('#modalCodCR').val().trim(),
+        cr: $('#modalCR').val().trim()
+    };
+
+    // Guardar o actualizar el artículo en localStorage
+    localStorage.setItem(codigo, JSON.stringify(articulo)); 
+
+    // Opcional: Cerrar el modal después de guardar
+    //$('#abmArticulo').modal('hide');
+
+    // Opcional: Mostrar un mensaje de éxito
+    alert('Artículo guardado correctamente!');
+}
+

@@ -174,10 +174,9 @@ for (let i = 1; i < sessionStorage["numeroFilas"]; i++) {
 let fecha = new Date().toLocaleString();
 $( ".part12" ).html( fecha );
 
-/*
+
 window.print();
 
 window.addEventListener("afterprint", function() {
     window.close();
 });
-*/

@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 
-<title>Test</title>
+<title>Etiquetas Tecnicas</title>
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="modal.css">
@@ -42,7 +42,7 @@
     <input type=button value="Imprimir" class="btn btn-primary" onclick="imprimir()">
 
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#abmArticulo">Nuevo Art</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#abmArticulo" onclick="editarArticulo()">Nuevo Art</button>
 
     <!-- Modal -->
 <div class="modal fade" id="abmArticulo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -111,6 +111,10 @@
                   <div class="descripcion"><input type="text" id="modalDesc" placeholder="Descripción"></div>
                       <div class="ean"><input type="text" id="modalEAN" placeholder="EAN"></div>
                   </div>
+                  <div class="part4">
+                  <div class="modalCodCR"><input type="text" id="modalCodCR" placeholder="Codigo CR"></div>
+                      <div class="modalCR"><input type="text" id="modalCR" placeholder="Precio CR"></div>
+                  </div>
                   <div class="part5">
                     <div class="modalPlan">
                       <select name="modalPlan" id="modalPlan" class="form-control">
@@ -118,6 +122,9 @@
                       </select>
                     </div>
                   </div>
+                  <!-- Div para mostrar el mensaje de error -->
+                  <div id="error-message" class="error-message"></div>
+
               </div>
             </div>;
 
@@ -127,7 +134,7 @@
       </div>
       <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-primary" onclick="guardarArticulo()">Guardar</button>
         </div>
     </div>
   </div>
