@@ -233,7 +233,7 @@
 
 .box .logo .part11 span{
     width: 60%;
-    font-size: 22px;
+    font-size: 11px;
     text-align: right;
     font-weight: bold;
 }
@@ -241,6 +241,10 @@
 .precioContado {
     font-weight: bold;
     font-size: 20px;
+}
+
+.precioSinImpuestos {
+    font-size: 10px;
 }
 
 .part12 {

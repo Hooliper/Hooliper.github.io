@@ -18,8 +18,12 @@
     
     <div class="mb-3 cambioDePrecios">
       <label for="formFile" class="form-label"><b>Cambio de precio</b></label>
-      <input class="form-control" type="file" id="formFile" onchange="handleFiles(this.files)">
+      <input class="form-control" type="file" id="formFile" onchange="handleFiles(this.files)" hidden>
+      <label for="formFile" class="custom-file-upload">
+        <i class="bi bi-upload"></i> Cargar Archivo
+      </label>
     </div>
+    
   
     <div class="cargaManual">
       <label for="formFile" class="form-label"><b>Carga Manual</b></label><br>
@@ -217,11 +221,13 @@
 <!-- Fin Modal para seleccionar una nueva imagen -->
 
 
-    <div class="mb-3 cargaBd">
+<div class="mb-3 cargaBd">
       <label for="formFile" class="form-label"><b>Base de Datos</b></label>
       <input class="form-control" type="file" onchange="actualizaBd(this.files)">
     </div>
 
+
+    <input type=button value="Descargar BD" class="btn btn-primary" onclick="descargarLocalStorageAExcel()">
   </div>
 
   <div class="divisor">

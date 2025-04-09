@@ -11,26 +11,71 @@
 	font-family: sans-serif;
 }
 
-.mb-3{
+/* Estilo para el contenedor del formulario */
+.mb-3 {
 	border: solid;
 	border-color: #999;
 	border-radius: 25px;
-	padding: 9px;
-}
-
-.mb-3 label{
+	padding: 20px;
+	background-color: #f9f9f9;
+  }
+  
+  /* Estilo para el label dentro del contenedor */
+  .mb-3 label {
 	margin-top: 6px;
 	margin-left: 6px;
 	margin-right: 6px;
-	margin-bottom: -3px;
-}
-
-.mb-3 input{
+	margin-bottom: 12px;
+	font-weight: bold;
+  }
+  
+  /* Estilo para el input tipo file */
+  .mb-3 input[type="file"] {
 	margin-bottom: 6px;
 	margin-left: 6px;
 	margin-right: 10px;
-	width: 96%;
-}
+	width: 100%;
+	padding: 12px 18px;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	font-size: 16px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+  }
+  
+  .mb-3 input[type="file"]:hover {
+	border-color: #007bff;
+	background-color: #f1f1f1;
+  }
+  
+
+  /* Estilo para el botón customizado de carga */
+  .custom-file-upload {
+	display: inline-block;
+	padding: 12px 20px;
+	background-color: #007bff;
+	color: white;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	text-align: center;
+	transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+	background-color: #0056b3;
+  }
+  
+  .custom-file-upload i {
+	margin-right: 8px;
+  }
+  
+  /* Asegúrate de ocultar el input real */
+  #formFile {
+	display: none;
+  }
+  
 
 .cargaManual{
 	border: solid;
@@ -191,3 +236,5 @@ td {
 #modalEAN {
 	margin-right: 8px;
 }
+
+

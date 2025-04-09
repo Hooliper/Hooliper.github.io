@@ -646,9 +646,91 @@ function guardarArticulo() {
     localStorage.setItem(codigo, JSON.stringify(articulo)); 
 
     // Opcional: Cerrar el modal después de guardar
-    //$('#abmArticulo').modal('hide');
+    $('#abmArticulo').modal('hide');
 
     // Opcional: Mostrar un mensaje de éxito
-    alert('Artículo guardado correctamente!');
+    //alert('Artículo guardado correctamente!');
 }
 
+
+// Función para descargar todo el contenido de localStorage a un archivo Excel
+function descargarLocalStorageAExcel() {
+    let datosPrincipal = [];
+    let datosTarjetas = [];
+
+    // Obtenemos todos los elementos de localStorage
+    for (let i = 0; i < localStorage.length; i++) {
+        let clave = localStorage.key(i);
+        let valor = localStorage.getItem(clave);
+
+        // Parseamos el valor si es un JSON
+        let valorParseado;
+        try {
+            valorParseado = JSON.parse(valor);
+        } catch (e) {
+            // Si no es un JSON válido, lo dejamos como string
+            valorParseado = valor;
+        }
+
+        // Verificamos si el valorParseado tiene el formato de producto y lo agregamos a datosPrincipal
+        if (valorParseado && valorParseado.cod && valorParseado.cod >= 50) {
+            // Agregamos los datos del producto al array principal
+            datosPrincipal.push({
+                cod: valorParseado.cod || "",
+                desc: valorParseado.desc || "",
+                ean: valorParseado.ean || "",
+                producto: valorParseado.producto || "",
+                marca: valorParseado.marca || "",
+                logo1: valorParseado.logo1 || "",
+                detalle1: valorParseado.detalle1 || "",
+                logo2: valorParseado.logo2 || "",
+                detalle2: valorParseado.detalle2 || "",
+                logo3: valorParseado.logo3 || "",
+                detalle3: valorParseado.detalle3 || "",
+                logo4: valorParseado.logo4 || "",
+                detalle4: valorParseado.detalle4 || "",
+                logo5: valorParseado.logo5 || "",
+                detalle5: valorParseado.detalle5 || "",
+                logo6: valorParseado.logo6 || "",
+                detalle6: valorParseado.detalle6 || "",
+                planCuotas: valorParseado.planCuotas || "",
+                "Cod CR": valorParseado["Cod CR"] || "",
+                cr: valorParseado.cr || "",
+                amarillo: valorParseado.amarillo || ""
+            });
+        } else if (valorParseado && valorParseado.cod && valorParseado.cod < 50) {
+            // Si el valorParseado tiene el formato de tarjeta (cod < 50)
+            datosTarjetas.push({
+                cod: valorParseado.cod || "",
+                nombre: valorParseado.nombre || "",
+                tarjeta1: valorParseado.tarjeta1 || "",
+                colorTarjeta1: valorParseado.colorTarjeta1 || "",
+                cuotas1: valorParseado.cuotas1 || "",
+                interes1: valorParseado.interes1 || "",
+                tarjeta2: valorParseado.tarjeta2 || "",
+                colorTarjeta2: valorParseado.colorTarjeta2 || "",
+                cuotas2: valorParseado.cuotas2 || "",
+                interes2: valorParseado.interes2 || "",
+                tarjeta3: valorParseado.tarjeta3 || "",
+                colorTarjeta3: valorParseado.colorTarjeta3 || "",
+                cuotas3: valorParseado.cuotas3 || "",
+                interes3: valorParseado.interes3 || "",
+                cod_1: valorParseado.cod_1 || ""
+            });
+        }
+    }
+
+    // Crear un libro de trabajo (workbook) de Excel
+    const wb = XLSX.utils.book_new();
+
+    // Crear las hojas de trabajo
+    const wsPrincipal = XLSX.utils.json_to_sheet(datosPrincipal);
+    const wsTarjetas = XLSX.utils.json_to_sheet(datosTarjetas);
+
+    // Añadir las hojas de trabajo al libro
+    XLSX.utils.book_append_sheet(wb, wsPrincipal, 'BD');
+    XLSX.utils.book_append_sheet(wb, wsTarjetas, 'Planes');
+
+    // Descargar el archivo Excel
+    XLSX.writeFile(wb, 'Base de datos etiquetas tecnicas.xlsx');
+}

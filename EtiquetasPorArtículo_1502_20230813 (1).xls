@@ -1,0 +1,1462 @@
+<meta http-equiv="content-type" content="application/vnd.ms-excel; charset=UTF-8"><html><head><title>Etiquetas por Artículo (Sucursal: 1502)</title></head><body>
+        <div class="col-sm-12">
+            <table id="tableImpresionesExcel" style="border:2px;">
+                <thead>
+                    <tr style="background-color:red; color:white;">
+                        <th>EAN</th>
+                        <th>Cód. Artículo</th>
+                        <th>Descripción</th>
+                        <th>Precio Nuevo</th>
+                        <th>Precio Anterior</th>
+                        <th>Stock</th>
+                        <th>Grupo</th>
+                        <th>Sector</th>
+                        <th>Familia</th>
+                        <th>Origen</th>
+                    </tr>
+                </thead>
+                <tbody><!-- ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope" style="">
+                    <td style="text-align:center;" class="ng-binding">2900264000007</td>
+                    <td style="text-align:right;" class="ng-binding">900264</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV C/MON.LCD-24 A 33P-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 545</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-650</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900263000008</td>
+                    <td style="text-align:right;" class="ng-binding">900263</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV C/MON.LCD-15 A 23P-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 380</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-15</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358945000004</td>
+                    <td style="text-align:right;" class="ng-binding">358945</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $002501 - $003750</td>
+                    <td style="text-align:right;" class="ng-binding">$ 547.23</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-30</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377480000003</td>
+                    <td style="text-align:right;" class="ng-binding">377480</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $04001 A $06000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1358.92</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1176.12</td>
+                    <td style="text-align:right;" class="ng-binding">-12</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377488000005</td>
+                    <td style="text-align:right;" class="ng-binding">377488</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $09001 A $013000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1652.12</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1429.43</td>
+                    <td style="text-align:right;" class="ng-binding">-638</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377490000000</td>
+                    <td style="text-align:right;" class="ng-binding">377490</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $09001 A $013000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2750.43</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2382.54</td>
+                    <td style="text-align:right;" class="ng-binding">-62</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377526000004</td>
+                    <td style="text-align:right;" class="ng-binding">377526</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $050001 A $060000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 12237.05</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10047.66</td>
+                    <td style="text-align:right;" class="ng-binding">-6</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401384000002</td>
+                    <td style="text-align:right;" class="ng-binding">401384</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $013001 A $019000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5123.88</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4438.14</td>
+                    <td style="text-align:right;" class="ng-binding">-11</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050935</td>
+                    <td style="text-align:right;" class="ng-binding">440165</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$36001 H$40001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 9845.49</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8083.99</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050959</td>
+                    <td style="text-align:right;" class="ng-binding">440168</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$44001 H$48001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 11846.9</td>
+                    <td style="text-align:right;" class="ng-binding">$ 9727.32</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051352</td>
+                    <td style="text-align:right;" class="ng-binding">440230</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE AUDIOPORTAB D$32001 A $36000 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10375.73</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8519.36</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51199</td>
+                    <td style="text-align:right;" class="ng-binding">472797</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $95 A $100 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 17465.14</td>
+                    <td style="text-align:right;" class="ng-binding">$ 14340.37</td>
+                    <td style="text-align:right;" class="ng-binding">-50</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51206</td>
+                    <td style="text-align:right;" class="ng-binding">472801</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $120 A $125 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 21859.06</td>
+                    <td style="text-align:right;" class="ng-binding">$ 17948.16</td>
+                    <td style="text-align:right;" class="ng-binding">-19</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51207</td>
+                    <td style="text-align:right;" class="ng-binding">472802</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $125 A $130 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 22737.79</td>
+                    <td style="text-align:right;" class="ng-binding">$ 18669.67</td>
+                    <td style="text-align:right;" class="ng-binding">-23</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51209</td>
+                    <td style="text-align:right;" class="ng-binding">472803</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $130 A $135 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 23616.53</td>
+                    <td style="text-align:right;" class="ng-binding">$ 19391.19</td>
+                    <td style="text-align:right;" class="ng-binding">-10</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51902</td>
+                    <td style="text-align:right;" class="ng-binding">476113</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $210-$220 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 35462.78</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-8</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51903</td>
+                    <td style="text-align:right;" class="ng-binding">476114</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $220-$230 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 37099.31</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-13</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8718863035344</td>
+                    <td style="text-align:right;" class="ng-binding">489742</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 43 PHILIPS 43PFD6917/77</td>
+                    <td style="text-align:right;" class="ng-binding">$ 165409</td>
+                    <td style="text-align:right;" class="ng-binding">$ 118999</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2850285000008</td>
+                    <td style="text-align:right;" class="ng-binding">491722</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $330-$340</td>
+                    <td style="text-align:right;" class="ng-binding">$ 65339</td>
+                    <td style="text-align:right;" class="ng-binding">$ 65338.81</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8806094211269</td>
+                    <td style="text-align:right;" class="ng-binding">506495</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 65 SAMSUNG QLE QN65Q65BA</td>
+                    <td style="text-align:right;" class="ng-binding">$ 472999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 449999</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7796962996224</td>
+                    <td style="text-align:right;" class="ng-binding">509337</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 LG NANOCELL 55NANO80</td>
+                    <td style="text-align:right;" class="ng-binding">$ 349999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7790653061789</td>
+                    <td style="text-align:right;" class="ng-binding">509339</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 65 NANO CELL LG 65NANO80</td>
+                    <td style="text-align:right;" class="ng-binding">$ 499999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7790653061888</td>
+                    <td style="text-align:right;" class="ng-binding">509341</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 43 UHD LG 43UQ8050</td>
+                    <td style="text-align:right;" class="ng-binding">$ 169999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358948000001</td>
+                    <td style="text-align:right;" class="ng-binding">358948</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $003751 - $005000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 656.67</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-59</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377510000003</td>
+                    <td style="text-align:right;" class="ng-binding">377510</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $024001 A $033000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6637.15</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5449.67</td>
+                    <td style="text-align:right;" class="ng-binding">-20</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377531000006</td>
+                    <td style="text-align:right;" class="ng-binding">377531</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $060001 A $075000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 14935.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 12262.93</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401386000000</td>
+                    <td style="text-align:right;" class="ng-binding">401386</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $024001 A $033000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10210.41</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8383.62</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401389000007</td>
+                    <td style="text-align:right;" class="ng-binding">401389</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $050001 A $060000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 19020.38</td>
+                    <td style="text-align:right;" class="ng-binding">$ 15617.36</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050911</td>
+                    <td style="text-align:right;" class="ng-binding">440162</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$28001 H$32001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7838.12</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6435.77</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051031</td>
+                    <td style="text-align:right;" class="ng-binding">440217</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LEDD$90001H$95001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 16585.52</td>
+                    <td style="text-align:right;" class="ng-binding">$ 13618.13</td>
+                    <td style="text-align:right;" class="ng-binding">-24</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8718863026366</td>
+                    <td style="text-align:right;" class="ng-binding">471120</td>
+                    <td style="text-align:left;" class="ng-binding">LED 24 PHILIPS 24PHD5565/77</td>
+                    <td style="text-align:right;" class="ng-binding">$ 85489</td>
+                    <td style="text-align:right;" class="ng-binding">$ 59999</td>
+                    <td style="text-align:right;" class="ng-binding">3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51577</td>
+                    <td style="text-align:right;" class="ng-binding">476106</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $160-$165 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 26871.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-6</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51579</td>
+                    <td style="text-align:right;" class="ng-binding">476108</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $170-$175 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 28507.55</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-19</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51904</td>
+                    <td style="text-align:right;" class="ng-binding">476115</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $230-$240 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 38735.78</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-5</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2850601000002</td>
+                    <td style="text-align:right;" class="ng-binding">494808</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $350-$359</td>
+                    <td style="text-align:right;" class="ng-binding">$ 56360</td>
+                    <td style="text-align:right;" class="ng-binding">$ 56360.21</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2850606000007</td>
+                    <td style="text-align:right;" class="ng-binding">494813</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $400-$409</td>
+                    <td style="text-align:right;" class="ng-binding">$ 64250</td>
+                    <td style="text-align:right;" class="ng-binding">$ 64249.55</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7796941250873</td>
+                    <td style="text-align:right;" class="ng-binding">503303</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 RCA AND55P6UHD</td>
+                    <td style="text-align:right;" class="ng-binding">$ 194999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 194999</td>
+                    <td style="text-align:right;" class="ng-binding">4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8806094211221</td>
+                    <td style="text-align:right;" class="ng-binding">506065</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 SAMSUNG QLED Q65BA</td>
+                    <td style="text-align:right;" class="ng-binding">$ 346999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 329999</td>
+                    <td style="text-align:right;" class="ng-binding">2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900339000000</td>
+                    <td style="text-align:right;" class="ng-binding">900339</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA LCD</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">32</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900167000005</td>
+                    <td style="text-align:right;" class="ng-binding">900167</td>
+                    <td style="text-align:left;" class="ng-binding">DISPARO TV/AUDIO</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-16</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900178000001</td>
+                    <td style="text-align:right;" class="ng-binding">900178</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA FIDELIZACION TV/AUDIO</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">12</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900259000005</td>
+                    <td style="text-align:right;" class="ng-binding">900259</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  36M TV LED MON 38" A 42"-36M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2346</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900139000002</td>
+                    <td style="text-align:right;" class="ng-binding">900139</td>
+                    <td style="text-align:left;" class="ng-binding">DISPARO LCD/LED 1</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-9</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2800038000007</td>
+                    <td style="text-align:right;" class="ng-binding">800038</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV PREMIUM HASTA 21"+DVD-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 315</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2800042000000</td>
+                    <td style="text-align:right;" class="ng-binding">800042</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV PREM 22" A 33"+DVD-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 376</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-9</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377498000002</td>
+                    <td style="text-align:right;" class="ng-binding">377498</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $019001 A $024000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 3202.38</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2629.43</td>
+                    <td style="text-align:right;" class="ng-binding">-712</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377524000006</td>
+                    <td style="text-align:right;" class="ng-binding">377524</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $050001 A $060000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7487.33</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6147.74</td>
+                    <td style="text-align:right;" class="ng-binding">-398</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401387000009</td>
+                    <td style="text-align:right;" class="ng-binding">401387</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $033001 A $040000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 12730.75</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10453.03</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401388000008</td>
+                    <td style="text-align:right;" class="ng-binding">401388</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $040001 A $050000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 15621.83</td>
+                    <td style="text-align:right;" class="ng-binding">$ 12826.86</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050881</td>
+                    <td style="text-align:right;" class="ng-binding">440156</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$16001 H$20001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4832.96</td>
+                    <td style="text-align:right;" class="ng-binding">$ 3968.27</td>
+                    <td style="text-align:right;" class="ng-binding">-16</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051017</td>
+                    <td style="text-align:right;" class="ng-binding">440215</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LEDD$75001H$85001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 11060.01</td>
+                    <td style="text-align:right;" class="ng-binding">$ 9081.21</td>
+                    <td style="text-align:right;" class="ng-binding">-258</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51202</td>
+                    <td style="text-align:right;" class="ng-binding">472799</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $105 A $110 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10988.84</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-22</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51203</td>
+                    <td style="text-align:right;" class="ng-binding">472800</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $110 A $115 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 20101.49</td>
+                    <td style="text-align:right;" class="ng-binding">$ 16505.04</td>
+                    <td style="text-align:right;" class="ng-binding">-27</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51205</td>
+                    <td style="text-align:right;" class="ng-binding">472848</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $115 A $120 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 11991.31</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-48</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51214</td>
+                    <td style="text-align:right;" class="ng-binding">472806</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $150 A $155 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 20249.33</td>
+                    <td style="text-align:right;" class="ng-binding">$ 16264.27</td>
+                    <td style="text-align:right;" class="ng-binding">-16</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51900</td>
+                    <td style="text-align:right;" class="ng-binding">476112</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $195-$200 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 32598.86</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8718863029787</td>
+                    <td style="text-align:right;" class="ng-binding">480334</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 PHILIPS 55PUD7406/77</td>
+                    <td style="text-align:right;" class="ng-binding">$ 241989</td>
+                    <td style="text-align:right;" class="ng-binding">$ 196999</td>
+                    <td style="text-align:right;" class="ng-binding">10</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8718863035733</td>
+                    <td style="text-align:right;" class="ng-binding">492166</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 32 PHILIPS 32PHD6927 BLA</td>
+                    <td style="text-align:right;" class="ng-binding">$ 126749</td>
+                    <td style="text-align:right;" class="ng-binding">$ 83999</td>
+                    <td style="text-align:right;" class="ng-binding">24</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7796941250811</td>
+                    <td style="text-align:right;" class="ng-binding">493431</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 32 RCA C32AND</td>
+                    <td style="text-align:right;" class="ng-binding">$ 71699</td>
+                    <td style="text-align:right;" class="ng-binding">$ 71699</td>
+                    <td style="text-align:right;" class="ng-binding">2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2902522000002</td>
+                    <td style="text-align:right;" class="ng-binding">902522</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV PREMIUM H 21 -24MES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 257</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-316</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2800004000000</td>
+                    <td style="text-align:right;" class="ng-binding">800004</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV LCD MONIT. 38 A 40-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 836</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-26</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358953000003</td>
+                    <td style="text-align:right;" class="ng-binding">358953</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 36M CD / LED 36M $005001 - $0</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1398.22</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358956000000</td>
+                    <td style="text-align:right;" class="ng-binding">358956</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 36M CD / LED 36M $006251 - $0</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1608.18</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358962000001</td>
+                    <td style="text-align:right;" class="ng-binding">358962</td>
+                    <td style="text-align:left;" class="ng-binding">*CR   24M LCD / LED 24M $008751 - $010000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1395.99</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-28</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358968000005</td>
+                    <td style="text-align:right;" class="ng-binding">358968</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $015001 - $020000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2314</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401382000004</td>
+                    <td style="text-align:right;" class="ng-binding">401382</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $06001 A $09000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2475.85</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2145.47</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">782150964486</td>
+                    <td style="text-align:right;" class="ng-binding">455384</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 43 AOC 43S5295/77G</td>
+                    <td style="text-align:right;" class="ng-binding">$ 148999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 99999</td>
+                    <td style="text-align:right;" class="ng-binding">4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51201</td>
+                    <td style="text-align:right;" class="ng-binding">472798</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $100 A $105 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 13046.18</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10487.6</td>
+                    <td style="text-align:right;" class="ng-binding">-81</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51213</td>
+                    <td style="text-align:right;" class="ng-binding">472805</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $145 A $150 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 14998.65</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-48</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51210</td>
+                    <td style="text-align:right;" class="ng-binding">472849</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $135 A $140 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 13996.18</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-35</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51899</td>
+                    <td style="text-align:right;" class="ng-binding">476111</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $190-$195 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 31780.6</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51901</td>
+                    <td style="text-align:right;" class="ng-binding">476396</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $200-$210 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 33826.26</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-16</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7796962994688</td>
+                    <td style="text-align:right;" class="ng-binding">495931</td>
+                    <td style="text-align:left;" class="ng-binding">LED NOBLEX 24 DB24X4000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 44999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 40499.1</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900267000004</td>
+                    <td style="text-align:right;" class="ng-binding">900267</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV LED MON 38" A 42"-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1100</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-339</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2902523000001</td>
+                    <td style="text-align:right;" class="ng-binding">902523</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 36M TV PREMIUM H 21 -36MES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 476</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358946000003</td>
+                    <td style="text-align:right;" class="ng-binding">358946</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $002501 - $003750</td>
+                    <td style="text-align:right;" class="ng-binding">$ 895.67</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358952000004</td>
+                    <td style="text-align:right;" class="ng-binding">358952</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $005001 - $006250</td>
+                    <td style="text-align:right;" class="ng-binding">$ 855.46</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-31</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358965000008</td>
+                    <td style="text-align:right;" class="ng-binding">358965</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $001001 - $015000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1706.46</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-34</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377493000007</td>
+                    <td style="text-align:right;" class="ng-binding">377493</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $013001 A $019000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1782.44</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1542.94</td>
+                    <td style="text-align:right;" class="ng-binding">-929</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401383000003</td>
+                    <td style="text-align:right;" class="ng-binding">401383</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $09001 A $013000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4746.91</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4109.81</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051024</td>
+                    <td style="text-align:right;" class="ng-binding">440216</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LEDD$85001H$90001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 13705.87</td>
+                    <td style="text-align:right;" class="ng-binding">$ 11253.69</td>
+                    <td style="text-align:right;" class="ng-binding">-31</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51215</td>
+                    <td style="text-align:right;" class="ng-binding">472807</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $155 A $160 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 21939.17</td>
+                    <td style="text-align:right;" class="ng-binding">$ 17619.47</td>
+                    <td style="text-align:right;" class="ng-binding">-12</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51578</td>
+                    <td style="text-align:right;" class="ng-binding">476107</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $165-$170 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 27689.29</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-15</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51906</td>
+                    <td style="text-align:right;" class="ng-binding">476117</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $250-$260 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 42008.83</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7790653061529</td>
+                    <td style="text-align:right;" class="ng-binding">482862</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 70 4K LG 70UP7750</td>
+                    <td style="text-align:right;" class="ng-binding">$ 499999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 518619</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2902466000007</td>
+                    <td style="text-align:right;" class="ng-binding">902466</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV LCD MON 41 A 47 -24MES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1120</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-28</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900335000004</td>
+                    <td style="text-align:right;" class="ng-binding">900335</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA LED</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">43</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2901630000003</td>
+                    <td style="text-align:right;" class="ng-binding">901630</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV LED 3D 43" A 50"-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5456</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900182000004</td>
+                    <td style="text-align:right;" class="ng-binding">900182</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA LED + PTOS</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358955000001</td>
+                    <td style="text-align:right;" class="ng-binding">358955</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $006251 - $007500</td>
+                    <td style="text-align:right;" class="ng-binding">$ 982.78</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-18</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377478000008</td>
+                    <td style="text-align:right;" class="ng-binding">377478</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $04001 A $06000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 814.43</td>
+                    <td style="text-align:right;" class="ng-binding">$ 705.62</td>
+                    <td style="text-align:right;" class="ng-binding">-142</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377485000008</td>
+                    <td style="text-align:right;" class="ng-binding">377485</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $06001 A $09000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1438.05</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1243.79</td>
+                    <td style="text-align:right;" class="ng-binding">-164</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377495000005</td>
+                    <td style="text-align:right;" class="ng-binding">377495</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $013001 A $019000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2969.15</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2571.58</td>
+                    <td style="text-align:right;" class="ng-binding">-119</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377521000009</td>
+                    <td style="text-align:right;" class="ng-binding">377521</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $040001 A $055000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 10077.55</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8274.53</td>
+                    <td style="text-align:right;" class="ng-binding">-8</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051635</td>
+                    <td style="text-align:right;" class="ng-binding">440122</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE RADIO FM $1501 A $2000 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1782.08</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1463.24</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050898</td>
+                    <td style="text-align:right;" class="ng-binding">440158</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$20001 H$24001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5836.7</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4792.43</td>
+                    <td style="text-align:right;" class="ng-binding">-2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">648260546212</td>
+                    <td style="text-align:right;" class="ng-binding">455383</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 32 AOC 32S5295/77G</td>
+                    <td style="text-align:right;" class="ng-binding">$ 109339</td>
+                    <td style="text-align:right;" class="ng-binding">$ 78999</td>
+                    <td style="text-align:right;" class="ng-binding">3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51211</td>
+                    <td style="text-align:right;" class="ng-binding">472804</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $140 A $145 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 25374.11</td>
+                    <td style="text-align:right;" class="ng-binding">$ 20834.31</td>
+                    <td style="text-align:right;" class="ng-binding">-11</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51581</td>
+                    <td style="text-align:right;" class="ng-binding">476109</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $180-$185 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 30144.07</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-10</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">7796941328664</td>
+                    <td style="text-align:right;" class="ng-binding">499363</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 TCL L55C635 QLED</td>
+                    <td style="text-align:right;" class="ng-binding">$ 249999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 237899</td>
+                    <td style="text-align:right;" class="ng-binding">3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900708000006</td>
+                    <td style="text-align:right;" class="ng-binding">900708</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA LCD P TODOS</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">10</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2500111000008</td>
+                    <td style="text-align:right;" class="ng-binding">500111</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV 21" HASTA 33"-24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 130</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-33</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2903193000001</td>
+                    <td style="text-align:right;" class="ng-binding">903193</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV LED MON 43" A 50"-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1456</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-41</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2902526000008</td>
+                    <td style="text-align:right;" class="ng-binding">902526</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M TV PREMIUM 21 A 33 -24MES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 244</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-59</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900181000005</td>
+                    <td style="text-align:right;" class="ng-binding">900181</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA TV 21</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.02</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">24</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2500109000003</td>
+                    <td style="text-align:right;" class="ng-binding">500109</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E. 24M  TV HASTA 21"-24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 85</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-95</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358949000000</td>
+                    <td style="text-align:right;" class="ng-binding">358949</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 36M CD / LED 36M $003751 - $0</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1074.35</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358967000006</td>
+                    <td style="text-align:right;" class="ng-binding">358967</td>
+                    <td style="text-align:left;" class="ng-binding">* CR  48M LCD / LED 48M $001001 -  $015000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4659.26</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377482000001</td>
+                    <td style="text-align:right;" class="ng-binding">377482</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $06001 A $09000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 884.22</td>
+                    <td style="text-align:right;" class="ng-binding">$ 765.88</td>
+                    <td style="text-align:right;" class="ng-binding">-768</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377507000009</td>
+                    <td style="text-align:right;" class="ng-binding">377507</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $024001 A $033000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4126.25</td>
+                    <td style="text-align:right;" class="ng-binding">$ 3388</td>
+                    <td style="text-align:right;" class="ng-binding">-613</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377513000000</td>
+                    <td style="text-align:right;" class="ng-binding">377513</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $033001 A $040000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5089.77</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4179.14</td>
+                    <td style="text-align:right;" class="ng-binding">-344</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377529000001</td>
+                    <td style="text-align:right;" class="ng-binding">377529</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $060001 A $075000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 9102.69</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7474.09</td>
+                    <td style="text-align:right;" class="ng-binding">-341</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050874</td>
+                    <td style="text-align:right;" class="ng-binding">440154</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$12001 H$16001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 3458.92</td>
+                    <td style="text-align:right;" class="ng-binding">$ 2840.07</td>
+                    <td style="text-align:right;" class="ng-binding">-5</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051338</td>
+                    <td style="text-align:right;" class="ng-binding">440226</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE AUDIOPORTAB D$24001 A $28000 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8009.23</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6576.26</td>
+                    <td style="text-align:right;" class="ng-binding">-80</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000051345</td>
+                    <td style="text-align:right;" class="ng-binding">440228</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE AUDIOPORTAB D$28001 A $32000 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 9195.45</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7550.25</td>
+                    <td style="text-align:right;" class="ng-binding">-22</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51582</td>
+                    <td style="text-align:right;" class="ng-binding">476110</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $185-$190 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 30962.34</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-6</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">51905</td>
+                    <td style="text-align:right;" class="ng-binding">476116</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $240-$250 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 40372.31</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-5</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">LARS</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900256000008</td>
+                    <td style="text-align:right;" class="ng-binding">900256</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  36M TV LED MON 24" A 33"-36M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1480</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-4</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900265000006</td>
+                    <td style="text-align:right;" class="ng-binding">900265</td>
+                    <td style="text-align:left;" class="ng-binding">*G.E  24M TV LED MON 24" A 33"-24M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 728</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-778</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2900338000001</td>
+                    <td style="text-align:right;" class="ng-binding">900338</td>
+                    <td style="text-align:left;" class="ng-binding">DESCARGA LCD + PTS</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0.01</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">6</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2358958000008</td>
+                    <td style="text-align:right;" class="ng-binding">358958</td>
+                    <td style="text-align:left;" class="ng-binding">*CR L 24M CD / LED 24M $007501 - $008750</td>
+                    <td style="text-align:right;" class="ng-binding">$ 1248.57</td>
+                    <td style="text-align:right;" class="ng-binding">$ 0</td>
+                    <td style="text-align:right;" class="ng-binding">-17</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377501000005</td>
+                    <td style="text-align:right;" class="ng-binding">377501</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $019001 A $024000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5095.46</td>
+                    <td style="text-align:right;" class="ng-binding">$ 4183.81</td>
+                    <td style="text-align:right;" class="ng-binding">-96</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377516000007</td>
+                    <td style="text-align:right;" class="ng-binding">377516</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  24M TV LCD/LED $033001 A $040000 24MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8241.21</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6766.74</td>
+                    <td style="text-align:right;" class="ng-binding">-10</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2377518000005</td>
+                    <td style="text-align:right;" class="ng-binding">377518</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE  12M TV LCD/LED $040001 A $055000 12MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6189.37</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5082</td>
+                    <td style="text-align:right;" class="ng-binding">-455</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2401385000001</td>
+                    <td style="text-align:right;" class="ng-binding">401385</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE TV LCD/LED $019001 A $024000 36 MESES</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7781.11</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6388.96</td>
+                    <td style="text-align:right;" class="ng-binding">-5</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050904</td>
+                    <td style="text-align:right;" class="ng-binding">440159</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$24001 H$28001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 6840.38</td>
+                    <td style="text-align:right;" class="ng-binding">$ 5616.54</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2000000050928</td>
+                    <td style="text-align:right;" class="ng-binding">440163</td>
+                    <td style="text-align:left;" class="ng-binding">*CRE MINIC D$32001 H$36001 12M</td>
+                    <td style="text-align:right;" class="ng-binding">$ 8841.81</td>
+                    <td style="text-align:right;" class="ng-binding">$ 7259.88</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8806092191006</td>
+                    <td style="text-align:right;" class="ng-binding">480711</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 50 SAMSUNG 4K UN50AU7000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 184999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 179999</td>
+                    <td style="text-align:right;" class="ng-binding">1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">8806092191600</td>
+                    <td style="text-align:right;" class="ng-binding">480809</td>
+                    <td style="text-align:left;" class="ng-binding">SMART 55 SAMSUNG 4K 55AU7000</td>
+                    <td style="text-align:right;" class="ng-binding">$ 229999</td>
+                    <td style="text-align:right;" class="ng-binding">$ 209999</td>
+                    <td style="text-align:right;" class="ng-binding">2</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">REL</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2850284000009</td>
+                    <td style="text-align:right;" class="ng-binding">491721</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $320-$330</td>
+                    <td style="text-align:right;" class="ng-binding">$ 63401</td>
+                    <td style="text-align:right;" class="ng-binding">$ 63401.11</td>
+                    <td style="text-align:right;" class="ng-binding">-3</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir --><tr ng-repeat="item in AImprimir" class="ng-scope">
+                    <td style="text-align:center;" class="ng-binding">2850286000007</td>
+                    <td style="text-align:right;" class="ng-binding">491723</td>
+                    <td style="text-align:left;" class="ng-binding">*CR TV $340-$350</td>
+                    <td style="text-align:right;" class="ng-binding">$ 67277</td>
+                    <td style="text-align:right;" class="ng-binding">$ 67276.55</td>
+                    <td style="text-align:right;" class="ng-binding">-1</td>
+                    <td style="text-align:left;" class="ng-binding">TECNO</td>
+                    <td style="text-align:left;" class="ng-binding">IMAGEN Y SONIDO</td>
+                    <td style="text-align:left;" class="ng-binding">TV/VIDEO</td>
+                    <td style="text-align:left;" class="ng-binding">CAMB</td>
+                </tr><!-- end ngRepeat: item in AImprimir -->
+            </tbody></table>
+        </div>
+    </body></html>

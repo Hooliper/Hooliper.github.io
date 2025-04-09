@@ -22,6 +22,7 @@ for (let i = 1; i < sessionStorage["numeroFilas"]; i++) {
         let precioTotal = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS'}).format(articuloImpresioin["total"])
         let conGarantia = (articuloImpresioin["cr"]>0 ? "PRECIO CON 2 AÑOS DE GARANTIA" : "")
         let precioContado = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS'}).format(articuloImpresioin["precio"])
+        let precioSinImpuestos = new Intl.NumberFormat('es-AR', { style: 'currency', currency: 'ARS'}).format(articuloImpresioin["precio"]/1.21)
         let logo1 = (articuloBD["logo1"] ? articuloBD["logo1"] : "Elegir Logo")
         let logo2 = (articuloBD["logo2"] ? articuloBD["logo2"] : "Elegir Logo")
         let logo3 = (articuloBD["logo3"] ? articuloBD["logo3"] : "Elegir Logo")
@@ -161,6 +162,12 @@ for (let i = 1; i < sessionStorage["numeroFilas"]; i++) {
                             '<div>'+
                                 '<div class="precioContado">'+precioContado+'</div>'+
                             '</div>'+
+                            //Agregado de precios sin Impuestos
+                            /*'<span>Precio sin impuestos nacionales:</span>'+
+                            '<div style="width: 3%;"></div>'+
+                            '<div>'+
+                                '<div class="precioSinImpuestos">'+precioSinImpuestos+'</div>'+
+                            '</div>'+*/
                         '</div>'+
                         '<div class="part12"></div>'+
                     '</div>'+
