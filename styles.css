@@ -1,0 +1,66 @@
+/* Reseteo para evitar márgenes extraños */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 40px auto; /* Centra la página horizontalmente */
+    padding: 0 20px;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+/* Lista de proyectos */
+ul {
+    list-style: none; /* Quitamos los puntos de la lista */
+    margin-top: 20px;
+}
+
+li {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff; /* Un toque de color azul lateral */
+    border-radius: 4px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: translateX(5px); /* Pequeño efecto al pasar el mouse */
+    background: #f0f7ff;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+small {
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Pie de página */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
