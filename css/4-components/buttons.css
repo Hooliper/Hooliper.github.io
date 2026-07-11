@@ -1,0 +1,26 @@
+
+.enlace-trabajo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton{
+    width: fit-content;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid #9b9898;
+    border-radius: 0.7rem;
+    text-align: center;
+    background-color: var(--color-boton);
+}
+
+.boton:hover{
+    background-color: var(--color-boton-hover);
+    transform: translateY(-1px);
+    transition: all 0.3s ease;
+}

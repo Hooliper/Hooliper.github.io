@@ -1,0 +1,9 @@
+@import url("1-settings/variables.css");
+@import url("2-base/reset.css");
+@import url("2-base/main.css");
+@import url("3-layout/header.css");
+@import url("3-layout/footer.css");
+@import url("4-components/section.css");
+@import url("4-components/buttons.css");
+@import url("4-components/cards.css");
+@import url("4-components/navbar.css");
