@@ -2,18 +2,26 @@
     display: flex;
     flex-direction: column;
     border: 1px solid #9b9898;
-    background-color: #f9f9f9d8;
     border-radius: 4px;
-    padding: 20px;
     margin-bottom: 40px;
 }
 
-.consigna ol{
-    margin-left: 1rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.consigna header{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #fff;
+    background: #007BFF;
+    background: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(111, 130, 237, 1) 78%);
 }
 
-.consigna a{
-    align-self: center;
+.consigna ol{
+    padding: 20px;
+    margin-left: 1rem;
+}
+
+.consigna footer{
+    padding: 20px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
 }
